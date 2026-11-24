@@ -1,0 +1,8 @@
+{
+  "mappings": [
+    "/content/vscan-rocks/:/"
+  ],
+  "includes": [
+    "/content/vscan-rocks/"
+  ]
+}
