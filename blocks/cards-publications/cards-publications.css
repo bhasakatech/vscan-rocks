@@ -1,0 +1,183 @@
+/* source: section.articles > article.fullWidthSlider (swiper of a.inner publication cards) */
+main > .section > .cards-publications-wrapper {
+  max-width: none;
+}
+
+.cards-publications {
+  position: relative;
+  color: rgb(91 91 103);
+}
+
+.cards-publications > .cards-publications-list {
+  list-style: none;
+  margin: 0;
+  padding: 12px 2px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 2px;
+  scrollbar-width: none;
+}
+
+.cards-publications > .cards-publications-list::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-publications .cards-publications-card {
+  flex: 0 0 257px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+/* the card: a.inner on the source */
+.cards-publications .cards-publications-card-link,
+.cards-publications .cards-publications-card:not(.cards-publications-card-linked) {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 12.8px;
+  padding: 24px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  color: var(--link-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.cards-publications .cards-publications-card-image {
+  line-height: 0;
+}
+
+.cards-publications .cards-publications-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.cards-publications .cards-publications-card-body p {
+  margin: 0;
+  color: rgb(91 91 103);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* authors: source .pretitle */
+.cards-publications .cards-publications-card-body p.cards-publications-card-eyebrow {
+  margin-bottom: 24px;
+  color: var(--heading-color);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3616px;
+}
+
+/* title: source .p.article-title */
+.cards-publications .cards-publications-card-body p.cards-publications-card-title {
+  margin-bottom: 16px;
+  color: var(--heading-color);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.cards-publications .cards-publications-card-body p.cards-publications-card-title a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* nav arrows: source .swiper-button-prev/next */
+.cards-publications .cards-publications-nav {
+  display: none;
+}
+
+.cards-publications .cards-publications-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--brand-purple);
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cards-publications .cards-publications-nav button:disabled {
+  display: none;
+}
+
+.cards-publications .cards-publications-prev {
+  left: -22px;
+}
+
+.cards-publications .cards-publications-next {
+  right: -22px;
+}
+
+.cards-publications .cards-publications-nav button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid currentcolor;
+  border-width: 1.5px 1.5px 0 0;
+  transform: translate(-75%, -50%) rotate(45deg);
+}
+
+.cards-publications .cards-publications-prev::after {
+  transform: translate(-25%, -50%) rotate(-135deg);
+}
+
+@media (width >= 900px) {
+  main > .section > .cards-publications-wrapper {
+    padding: 0 42px;
+  }
+
+  .cards-publications > .cards-publications-list {
+    padding-inline: max(2px, calc((100% - 1140px) / 2 - 12px)) 2px;
+    scroll-padding-inline: max(2px, calc((100% - 1140px) / 2 - 12px));
+  }
+
+  .cards-publications .cards-publications-card {
+    flex-basis: 285px;
+  }
+
+  .cards-publications .cards-publications-card-link,
+  .cards-publications .cards-publications-card:not(.cards-publications-card-linked) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .cards-publications .cards-publications-card-body p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .cards-publications .cards-publications-card-body p.cards-publications-card-eyebrow {
+    font-size: 14px;
+  }
+
+  .cards-publications .cards-publications-card-body p.cards-publications-card-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .cards-publications.cards-publications-overflowing .cards-publications-nav {
+    display: block;
+  }
+
+  /* alt look: wider cards (340px, ~3.5 visible at 1440) */
+  .cards-publications.alt .cards-publications-card {
+    flex-basis: 340px;
+  }
+}

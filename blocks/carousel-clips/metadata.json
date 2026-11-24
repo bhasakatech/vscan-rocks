@@ -1,0 +1,20 @@
+{
+  "variantName": "carousel-clips",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + video"
+  },
+  "contentPattern": "One row per slide: [media: image and/or link to a video file] [caption rich text]. One clip visible at a time with prev/next arrows; video links render as muted looping players.",
+  "options": [],
+  "memberVariantIds": [
+    "v_9538a92eae1d",
+    "v_9538a92eae1d-1"
+  ],
+  "usage": "Ultrasound clip sliders in a phone mockup on the homepage and specialty pages.",
+  "reuseGuidance": "Use when slides are single media items with a short caption."
+}

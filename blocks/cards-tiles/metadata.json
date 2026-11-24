@@ -1,0 +1,30 @@
+{
+  "variantName": "cards-tiles",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link"
+  },
+  "contentPattern": "One row per tile: [photo] [rich text: heading, copy, link]. By default the photo fills the tile behind the text.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "image-top",
+      "label": "Image Top"
+    }
+  ],
+  "memberVariantIds": [
+    "v_cfc8214af344",
+    "v_36317847e114",
+    "v_037dca9a4d22"
+  ],
+  "usage": "Product benefit tiles, probe tiles and product overview cards.",
+  "reuseGuidance": "Use image-top to place the photo above the text (product overview cards); alt for two-up heading + text tiles."
+}

@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": ""
+  },
+  "contentPattern": "One row per item: [icon image] [rich text: heading and paragraph]. Laid out as a responsive grid (three across on desktop).",
+  "options": [],
+  "memberVariantIds": [
+    "v_277ae933ddac"
+  ],
+  "usage": "Feature highlights (icon, heading, short copy) on product pages.",
+  "reuseGuidance": "Use for small icon + text feature lists. Icons may be SVG."
+}

@@ -1,0 +1,19 @@
+{
+  "variantName": "topic-tag",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": ""
+  },
+  "contentPattern": "One row: [text] — each paragraph or comma-separated value becomes a pill; linked values keep their link.",
+  "options": [],
+  "memberVariantIds": [
+    "v_973432da1854"
+  ],
+  "usage": "Topic label above tutorial content (e.g. \"Caption AI\").",
+  "reuseGuidance": "Use for one or a few topic pills; for long link lists use cards-links (alt)."
+}

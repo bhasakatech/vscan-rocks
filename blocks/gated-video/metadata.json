@@ -1,0 +1,19 @@
+{
+  "variantName": "gated-video",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + link + image"
+  },
+  "contentPattern": "Rows: [poster image] [rich text: heading, copy, \"Access Content\" link]. Poster is blurred and darkened behind centered text.",
+  "options": [],
+  "memberVariantIds": [
+    "v_cd157da75fe3-1"
+  ],
+  "usage": "Registration-gated webinar and tutorial videos.",
+  "reuseGuidance": "Use when a video sits behind a form; the CTA should link to the form or a fragment."
+}

@@ -1,0 +1,85 @@
+/*
+ * Accordion FAQ
+ * Source: vscan.rocks #faqs .items.faqs > .item (h3.h4 question + div.p answer).
+ * Rows: 2px lavender rules, 24px vertical padding, 22px/32px question (18px/28px mobile),
+ * 22px thin plus icon flush right that turns into a minus when open.
+ */
+
+.accordion-faq {
+  border-top: 2px solid var(--brand-lavender);
+}
+
+/* source: 56px from the FAQ heading to the first row (collapses with the 48px section gap) */
+main .section > div + div > .accordion-faq {
+  margin-top: 56px;
+}
+
+.accordion-faq details {
+  border-bottom: 2px solid var(--brand-lavender);
+}
+
+.accordion-faq details summary {
+  position: relative;
+  padding: 24px 48px 24px 0;
+  color: var(--heading-color);
+  font-size: var(--body-font-size-l);
+  font-weight: 400;
+  line-height: 28px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion-faq details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-faq details summary > * {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.accordion-faq details summary:focus-visible {
+  outline: 2px solid var(--brand-purple);
+  outline-offset: 2px;
+}
+
+/* plus / minus icon */
+.accordion-faq details summary::before,
+.accordion-faq details summary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  width: 22px;
+  height: 2px;
+  background-color: var(--heading-color);
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+.accordion-faq details summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.accordion-faq details[open] summary::after {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.accordion-faq details .accordion-faq-item-body {
+  padding: 0 48px 24px 0;
+}
+
+.accordion-faq details .accordion-faq-item-body > :first-child {
+  margin-top: 0;
+}
+
+.accordion-faq details .accordion-faq-item-body > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 900px) {
+  .accordion-faq details summary {
+    line-height: 32px;
+  }
+}

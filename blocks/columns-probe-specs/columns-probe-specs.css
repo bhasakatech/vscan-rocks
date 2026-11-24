@@ -1,0 +1,112 @@
+/* source: .items.twocol.bordercol (probe spec columns) */
+.columns-probe-specs {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.columns-probe-specs > .columns-probe-specs-row {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* probe label (source h3.h6) */
+.columns-probe-specs .columns-probe-specs-label {
+  margin: 0 0 24px;
+}
+
+.columns-probe-specs .columns-probe-specs-label p {
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+
+.columns-probe-specs .columns-probe-specs-label strong {
+  display: block;
+  font-weight: 700;
+}
+
+.columns-probe-specs .columns-probe-specs-subcols {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* sub-column heading (source div.p) */
+.columns-probe-specs .columns-probe-specs-subcol > :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 8px;
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: normal;
+}
+
+/* sub-column text (source div.small) */
+.columns-probe-specs .columns-probe-specs-subcol p {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.columns-probe-specs .columns-probe-specs-subcol p + p {
+  margin-top: 16px;
+}
+
+@media (width >= 600px) {
+  .columns-probe-specs .columns-probe-specs-subcols {
+    flex-direction: row;
+  }
+
+  .columns-probe-specs .columns-probe-specs-subcol {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+
+@media (width >= 900px) {
+  .columns-probe-specs > .columns-probe-specs-row {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .columns-probe-specs .columns-probe-specs-col {
+    flex: 1 1 0;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  .columns-probe-specs .columns-probe-specs-col:first-child {
+    padding-left: 0;
+  }
+
+  .columns-probe-specs .columns-probe-specs-col:last-child {
+    padding-right: 0;
+  }
+
+  .columns-probe-specs .columns-probe-specs-col:not(:last-child) {
+    border-right: 1px solid rgb(199 200 207);
+  }
+
+  .columns-probe-specs .columns-probe-specs-label p {
+    font-size: 14px;
+  }
+
+  .columns-probe-specs .columns-probe-specs-subcol > :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .columns-probe-specs .columns-probe-specs-subcol p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variantName": "columns-probe-specs",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "contentPattern": "One column per probe. In each column: a probe label paragraph, then headed sections (e.g. Anatomy, Assessment); each heading becomes a sub-column.",
+  "options": [],
+  "memberVariantIds": [
+    "v_2df4bd3dcf7f"
+  ],
+  "usage": "Probe anatomy/assessment tables on clinical specialty pages.",
+  "reuseGuidance": "Use for side-by-side specification columns with headed sub-sections."
+}

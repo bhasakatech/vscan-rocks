@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-features",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + image + heading"
+  },
+  "contentPattern": "One row per card: [thumbnail image] [rich text: title, optional description and link]. Cards sit in a horizontally scrolling row with prev/next buttons when they overflow.",
+  "options": [],
+  "memberVariantIds": [
+    "v_857b417f9611"
+  ],
+  "usage": "Scrolling rows of video/tutorial thumbnails with titles on specialty pages.",
+  "reuseGuidance": "Use for a scrolling row of image-topped cards. For a static grid use cards-tiles or cards-links."
+}

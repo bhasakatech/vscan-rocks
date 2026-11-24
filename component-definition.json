@@ -83,6 +83,219 @@
       "id": "blocks",
       "components": [
         {
+          "title": "Accordion Faq",
+          "id": "accordion-faq",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Accordion Faq",
+                  "filter": "accordion-faq"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Accordion Faq Item",
+          "id": "accordion-faq-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Accordion Faq Item",
+                  "model": "accordion-faq-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Features",
+          "id": "cards-features",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Features",
+                  "filter": "cards-features"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Features Item",
+          "id": "cards-features-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Features Item",
+                  "model": "cards-features-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Icon",
+          "id": "cards-icon",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Icon",
+                  "filter": "cards-icon"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Icon Item",
+          "id": "cards-icon-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Icon Item",
+                  "model": "cards-icon-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Links",
+          "id": "cards-links",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Links",
+                  "filter": "cards-links",
+                  "model": "cards-links"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Links Item",
+          "id": "cards-links-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Links Item",
+                  "model": "cards-links-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Publications",
+          "id": "cards-publications",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Publications",
+                  "filter": "cards-publications",
+                  "model": "cards-publications"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Publications Item",
+          "id": "cards-publications-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Publications Item",
+                  "model": "cards-publications-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Specialties",
+          "id": "cards-specialties",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Specialties",
+                  "filter": "cards-specialties"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Specialties Item",
+          "id": "cards-specialties-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Specialties Item",
+                  "model": "cards-specialties-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Tiles",
+          "id": "cards-tiles",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Tiles",
+                  "filter": "cards-tiles",
+                  "model": "cards-tiles"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Tiles Item",
+          "id": "cards-tiles-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Cards Tiles Item",
+                  "model": "cards-tiles-item"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -113,6 +326,127 @@
           }
         },
         {
+          "title": "Carousel Clips",
+          "id": "carousel-clips",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Clips",
+                  "filter": "carousel-clips"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Clips Item",
+          "id": "carousel-clips-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Clips Item",
+                  "model": "carousel-clips-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Downloads",
+          "id": "carousel-downloads",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Downloads",
+                  "filter": "carousel-downloads"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Downloads Item",
+          "id": "carousel-downloads-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Downloads Item",
+                  "model": "carousel-downloads-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Testimonial",
+          "id": "carousel-testimonial",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Testimonial",
+                  "filter": "carousel-testimonial",
+                  "model": "carousel-testimonial"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Testimonial Item",
+          "id": "carousel-testimonial-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Testimonial Item",
+                  "model": "carousel-testimonial-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Columns Probe Specs",
+          "id": "columns-probe-specs",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Columns Promo",
+          "id": "columns-promo",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
@@ -122,6 +456,52 @@
                 "template": {
                   "columns": "2",
                   "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Embed Video",
+          "id": "embed-video",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Embed Video",
+                  "model": "embed-video"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Filterable Library",
+          "id": "filterable-library",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Filterable Library",
+                  "filter": "filterable-library",
+                  "model": "filterable-library"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Filterable Library Item",
+          "id": "filterable-library-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Filterable Library Item",
+                  "model": "filterable-library-item"
                 }
               }
             }
@@ -143,6 +523,36 @@
           }
         },
         {
+          "title": "Gated Video",
+          "id": "gated-video",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Gated Video",
+                  "model": "gated-video"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Banner",
+          "id": "hero-banner",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Banner",
+                  "model": "hero-banner"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Hero",
           "id": "hero",
           "plugins": {
@@ -152,6 +562,36 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Topic Tag",
+          "id": "topic-tag",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Topic Tag",
+                  "model": "topic-tag"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Video Inline",
+          "id": "video-inline",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Video Inline",
+                  "model": "video-inline"
                 }
               }
             }

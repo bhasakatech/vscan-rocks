@@ -1,0 +1,183 @@
+/* Video Inline: native player (or YouTube / Vimeo) at content width */
+.video-inline {
+  position: relative;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto 48px;
+  color: rgb(91 91 103);
+  line-height: 0;
+}
+
+.video-inline[data-embed-loaded='false']:not(.video-inline-has-placeholder) {
+  /* reserve space to avoid layout shift */
+  aspect-ratio: 16 / 9;
+}
+
+/* default: native controls over the poster, sized by the media itself */
+.video-inline > video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* source: 6px line-box gap below its inline video, made explicit */
+.video-inline:not(.dark)::after {
+  content: '';
+  display: block;
+  height: 6px;
+}
+
+/* native player frame: 16:9 box, video letterboxed inside, play button overlay */
+.video-inline .video-inline-player {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--brand-lavender);
+}
+
+.video-inline .video-inline-player video {
+  display: block;
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  height: 100%;
+  object-fit: contain;
+}
+
+.video-inline .video-inline-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.video-inline .video-inline-play img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.video-inline .video-inline-play:focus-visible {
+  outline: 2px solid var(--brand-purple);
+  outline-offset: 2px;
+}
+
+.video-inline .video-inline-player.is-playing .video-inline-play {
+  display: none;
+}
+
+/* YouTube / Vimeo */
+.video-inline .video-inline-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-inline .video-inline-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-inline .video-inline-placeholder {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.video-inline .video-inline-placeholder > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+}
+
+.video-inline .video-inline-placeholder picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-inline .video-inline-placeholder-play button {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: var(--brand-purple);
+  color: #fff;
+}
+
+.video-inline .video-inline-placeholder-play button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 11px solid currentcolor;
+  transform: translate(-40%, -50%);
+}
+
+/* dark: dark player frame, light foreground */
+.video-inline.dark {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.video-inline.dark > video {
+  border-radius: 0;
+  object-fit: fill;
+}
+
+.video-inline.dark .video-inline-player,
+.video-inline.dark .video-inline-frame,
+.video-inline.dark .video-inline-placeholder {
+  background-color: #000;
+}
+
+@media (width >= 900px) {
+  .video-inline .video-inline-play,
+  .video-inline .video-inline-placeholder-play button {
+    width: 56px;
+    height: 56px;
+  }
+
+  .video-inline .video-inline-placeholder-play button::before {
+    border-top-width: 9px;
+    border-bottom-width: 9px;
+    border-left-width: 14px;
+  }
+}
+
+/* blog article body (source .newsdetail .video): 8px corners, natural video height;
+   the section style spaces the wrapper 48px from the next text */
+.section.article .video-inline {
+  margin-bottom: 0;
+}
+
+/* blog article body (source .newsdetail .video): 8px corners, natural video height */
+.section.article .video-inline video,
+.section.article .video-inline .video-inline-player,
+.section.article .video-inline .video-inline-placeholder {
+  border-radius: 8px;
+}

@@ -1,0 +1,217 @@
+/* cards-tiles: rounded tiles with the photo pinned to the top edge and
+   the text laid over its lower part (source .imageContainer / .twocol tiles) */
+.cards-tiles > .cards-tiles-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-tiles .cards-tiles-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 576px;
+  padding: 248px 24px 24px;
+  border-radius: 16px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.cards-tiles .cards-tiles-card-image {
+  position: absolute;
+  inset: 0 0 auto;
+  line-height: 0;
+}
+
+.cards-tiles .cards-tiles-card-image p {
+  margin: 0;
+}
+
+.cards-tiles .cards-tiles-card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cards-tiles .cards-tiles-card-body {
+  position: relative;
+}
+
+.cards-tiles .cards-tiles-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-tiles .cards-tiles-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-tiles .cards-tiles-card-body h3 {
+  margin: 0 0 16px;
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.25px;
+}
+
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card-body h3 {
+  width: fit-content;
+}
+
+.cards-tiles .cards-tiles-card-body p {
+  margin: 0 0 16px;
+  color: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards-tiles .cards-tiles-card-body sup {
+  font-size: 75%;
+  line-height: 0;
+}
+
+/* alt + image-top: white tiles, text starts below the photo */
+.cards-tiles.alt .cards-tiles-card,
+.cards-tiles.image-top .cards-tiles-card {
+  min-height: 0;
+  padding-top: 324px;
+}
+
+.cards-tiles.image-top .cards-tiles-card {
+  justify-content: flex-start;
+}
+
+.cards-tiles .cards-tiles-card-body a:any-link:not(.button) {
+  color: var(--link-color);
+}
+
+/* default tiles alternate dark / lavender like the source checkerboard */
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 1) {
+  background-color: rgb(24 11 36);
+}
+
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 2),
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 3) {
+  background-color: var(--brand-lavender);
+}
+
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) {
+  background-color: rgb(43 34 105);
+}
+
+/* the fourth tile's photo is full-bleed in the source: fill the whole tile */
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) .cards-tiles-card-image,
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) .cards-tiles-card-image :is(p, picture) {
+  display: block;
+  height: 100%;
+}
+
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) .cards-tiles-card-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 1),
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n),
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 1) h3,
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) h3,
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n + 1) a:any-link,
+.cards-tiles:not(.alt, .image-top) .cards-tiles-card:nth-child(4n) a:any-link {
+  color: #fff;
+}
+
+/* plain "learn more" link with a chevron (source a.trackLink) */
+.cards-tiles .cards-tiles-card-body p:not(.button-wrapper) > a:only-child:any-link {
+  position: relative;
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards-tiles .cards-tiles-card-body p:not(.button-wrapper) > a:only-child:any-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 12px);
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  background-color: currentcolor;
+  mask: url("/icons/caret-right.svg") center / contain no-repeat;
+}
+
+/* image-top: teaser line under the heading, stacked full-width buttons */
+.cards-tiles.image-top .cards-tiles-card-body h3 + p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.cards-tiles .cards-tiles-card-body p.button-wrapper {
+  display: block;
+  margin: 0 0 16px;
+}
+
+.cards-tiles .cards-tiles-card-body p.button-wrapper:last-child {
+  margin-bottom: 16px;
+}
+
+main .cards-tiles .cards-tiles-card-body a.button:any-link {
+  width: 100%;
+}
+
+@media (width >= 900px) {
+  .cards-tiles > .cards-tiles-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards-tiles .cards-tiles-card {
+    min-height: 773px;
+    padding: 372px 56px 48px;
+  }
+
+  .cards-tiles.alt .cards-tiles-card,
+  .cards-tiles.image-top .cards-tiles-card {
+    min-height: 0;
+    padding-top: 468px;
+  }
+
+  .cards-tiles .cards-tiles-card-body h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .cards-tiles .cards-tiles-card-body p {
+    margin-bottom: 17.952px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .cards-tiles .cards-tiles-card-body p:not(.button-wrapper) > a:only-child:any-link {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .cards-tiles.image-top .cards-tiles-card-body h3 + p {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .cards-tiles .cards-tiles-card-body p.button-wrapper,
+  .cards-tiles .cards-tiles-card-body p.button-wrapper:last-child {
+    display: inline-block;
+    margin: 0 19px 0 0;
+  }
+
+  main .cards-tiles .cards-tiles-card-body a.button:any-link {
+    width: auto;
+  }
+}

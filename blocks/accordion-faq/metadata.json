@@ -1,0 +1,19 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + heading + link"
+  },
+  "contentPattern": "One row per question: [question text] [answer rich text]. Rendered as <details>/<summary> rows with a plus/minus icon.",
+  "options": [],
+  "memberVariantIds": [
+    "v_dcf337cae6f8"
+  ],
+  "usage": "FAQ sections on specialty and product pages.",
+  "reuseGuidance": "Use for any expandable question/answer list. Not for promo banners (use hero-banner)."
+}

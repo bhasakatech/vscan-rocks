@@ -1,1 +1,139 @@
 /* add global styles that can be loaded post LCP here */
+
+/* Marketo form dialog (scripts/marketo.js) */
+.marketo-modal {
+  box-sizing: border-box;
+  width: calc(100% - 2 * var(--content-gutter));
+  max-width: 720px;
+  max-height: calc(100dvh - 2 * var(--content-gutter));
+  padding: 0;
+  border: 0;
+  border-radius: var(--button-radius);
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+}
+
+.marketo-modal::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+
+.marketo-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 24px 0;
+}
+
+.marketo-modal-title {
+  margin: 0;
+  color: var(--heading-color);
+  font-size: var(--heading-font-size-l);
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.marketo-modal-close {
+  position: relative;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--brand-lavender);
+  cursor: pointer;
+}
+
+.marketo-modal-close::before,
+.marketo-modal-close::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  background: var(--brand-purple);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.marketo-modal-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.marketo-modal-close:hover,
+.marketo-modal-close:focus-visible {
+  background: var(--brand-purple);
+}
+
+.marketo-modal-close:hover::before,
+.marketo-modal-close:hover::after,
+.marketo-modal-close:focus-visible::before,
+.marketo-modal-close:focus-visible::after {
+  background: var(--background-color);
+}
+
+.marketo-modal-body {
+  padding: 16px 24px 24px;
+}
+
+.marketo-modal-status:empty {
+  display: none;
+}
+
+/* Marketo injects fixed widths; let the form follow the dialog.
+   Class names below are Marketo's own (camelCase), so the naming rule is off here. */
+/* stylelint-disable selector-class-pattern */
+.marketo-modal .mktoForm {
+  width: 100% !important;
+  padding: 0 !important;
+  font-family: var(--body-font-family) !important;
+  font-size: var(--body-font-size-s) !important;
+  color: var(--text-color) !important;
+}
+
+.marketo-modal .mktoForm .mktoFormCol,
+.marketo-modal .mktoForm .mktoFieldWrap,
+.marketo-modal .mktoForm .mktoField:not([type='checkbox'], [type='radio']) {
+  width: 100% !important;
+  float: none !important;
+}
+
+.marketo-modal .mktoForm .mktoOffset,
+.marketo-modal .mktoForm .mktoGutter {
+  display: none;
+}
+
+.marketo-modal .mktoForm .mktoButtonRow,
+.marketo-modal .mktoForm .mktoButtonWrap {
+  margin-left: 0 !important;
+}
+
+.marketo-modal .mktoForm .mktoButton {
+  padding: 12px 24px !important;
+  border: 0 !important;
+  border-radius: var(--button-radius) !important;
+  background: var(--brand-purple) !important;
+  color: var(--background-color) !important;
+  font-family: var(--body-font-family) !important;
+  font-size: var(--body-font-size-s) !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.marketo-modal .mktoForm .mktoButton:hover {
+  background: var(--brand-purple-dark) !important;
+}
+/* stylelint-enable selector-class-pattern */
+
+@media (width >= 900px) {
+  .marketo-modal-header {
+    padding: 32px 32px 0;
+  }
+
+  .marketo-modal-body {
+    padding: 24px 32px 32px;
+  }
+}

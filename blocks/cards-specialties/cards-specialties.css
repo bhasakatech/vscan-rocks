@@ -1,0 +1,155 @@
+/* source: #select-careArea article.fullWidthSlider (swiper of a.inner tiles) */
+main > .section > .cards-specialties-wrapper {
+  max-width: none;
+}
+
+.cards-specialties {
+  position: relative;
+  color: rgb(91 91 103);
+}
+
+.cards-specialties > .cards-specialties-list {
+  list-style: none;
+  margin: 0;
+  padding: 12px 2px 25px;
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 2px;
+  scrollbar-width: none;
+}
+
+.cards-specialties > .cards-specialties-list::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-specialties .cards-specialties-card {
+  flex: 0 0 257px;
+  scroll-snap-align: start;
+  display: flex;
+}
+
+/* the tile: a.inner on the source */
+.cards-specialties .cards-specialties-card-link,
+.cards-specialties .cards-specialties-card:not(.cards-specialties-card-linked) {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 32px 16px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  color: var(--link-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.cards-specialties .cards-specialties-card-image {
+  line-height: 0;
+}
+
+.cards-specialties .cards-specialties-card-image p {
+  margin: 0;
+}
+
+.cards-specialties .cards-specialties-card-image img {
+  width: auto;
+  height: 64px;
+}
+
+.cards-specialties .cards-specialties-card-body {
+  padding-top: 16px;
+}
+
+.cards-specialties .cards-specialties-card-body p {
+  margin: 0;
+  color: rgb(91 91 103);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* nav arrows: source .swiper-button-prev/next */
+.cards-specialties .cards-specialties-nav {
+  display: none;
+}
+
+.cards-specialties .cards-specialties-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--brand-purple);
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cards-specialties .cards-specialties-nav button:disabled {
+  display: none;
+}
+
+.cards-specialties .cards-specialties-prev {
+  left: -22px;
+}
+
+.cards-specialties .cards-specialties-next {
+  right: -22px;
+}
+
+.cards-specialties .cards-specialties-nav button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid currentcolor;
+  border-width: 1.5px 1.5px 0 0;
+  transform: translate(-75%, -50%) rotate(45deg);
+}
+
+.cards-specialties .cards-specialties-prev::after {
+  transform: translate(-25%, -50%) rotate(-135deg);
+}
+
+@media (width >= 900px) {
+  main > .section > .cards-specialties-wrapper {
+    padding: 0 42px;
+  }
+
+  .cards-specialties > .cards-specialties-list {
+    padding-inline: max(2px, calc((100% - 1140px) / 2 - 12px)) 2px;
+    scroll-padding-inline: max(2px, calc((100% - 1140px) / 2 - 12px));
+  }
+
+  .cards-specialties .cards-specialties-card {
+    flex-basis: 285px;
+  }
+
+  .cards-specialties .cards-specialties-card-link,
+  .cards-specialties .cards-specialties-card:not(.cards-specialties-card-linked) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .cards-specialties .cards-specialties-card-body p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .cards-specialties.cards-specialties-overflowing .cards-specialties-nav {
+    display: block;
+  }
+}

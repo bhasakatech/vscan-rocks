@@ -147,10 +147,31 @@ async function loadEager(doc) {
 }
 
 /**
+ * Handles links that open third-party dialogs (configured in /config.json):
+ * #marketoModal opens the Marketo form, #cookie-preferences the consent preferences.
+ * @param {Element} doc The container element
+ */
+function handleIntegrationLinks(doc) {
+  doc.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href]');
+    if (!link) return;
+    const hash = link.getAttribute('href');
+    if (hash === '#marketoModal') {
+      e.preventDefault();
+      import('./marketo.js').then(({ default: openMarketoForm }) => openMarketoForm(link));
+    } else if (hash === '#cookie-preferences') {
+      e.preventDefault();
+      import('./integrations.js').then(({ showConsentPreferences }) => showConsentPreferences());
+    }
+  });
+}
+
+/**
  * Loads everything that doesn't need to be delayed.
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
+  handleIntegrationLinks(doc);
   loadHeader(doc.querySelector('header'));
 
   const main = doc.querySelector('main');

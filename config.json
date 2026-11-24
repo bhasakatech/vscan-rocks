@@ -1,0 +1,106 @@
+{
+  "locales": {
+    "default": "en",
+    "prefixed": ["de", "fr", "es", "it", "pt"]
+  },
+  "consent": {
+    "provider": "evidon",
+    "enabled": true,
+    "id": 8523,
+    "rootDomain": "vscan",
+    "test": false,
+    "suppressionCookieDays": 365
+  },
+  "integrations": {
+    "adobeLaunch": {
+      "enabled": true,
+      "requiresConsent": true,
+      "src": "https://assets.adobedtm.com/ea870d125975/c17ccfc50414/launch-EN21f46d220c2044ca992d7761b3662633.min.js"
+    },
+    "googleTagManager": {
+      "enabled": true,
+      "requiresConsent": true,
+      "id": "GTM-TMRD2C8"
+    },
+    "googleAds": {
+      "enabled": true,
+      "requiresConsent": true,
+      "id": "AW-382190235"
+    },
+    "optimizely": {
+      "enabled": true,
+      "requiresConsent": true,
+      "projectId": "18477640514"
+    },
+    "metaPixel": {
+      "enabled": true,
+      "requiresConsent": true,
+      "id": "2020987048133755"
+    },
+    "nrich": {
+      "enabled": true,
+      "requiresConsent": true,
+      "id": "291feabf-995b-4bcf-b4bf-dc58118b8bcf",
+      "cookieless": false
+    },
+    "sixsense": {
+      "enabled": true,
+      "requiresConsent": true,
+      "token": "4327736961a63259e89bce0e4c3176d7",
+      "endpoint": "b.6sc.co",
+      "epsilonKey": "4a6469728fe34574e26d27df553ea8cf87946a6e"
+    },
+    "ahrefs": {
+      "enabled": true,
+      "requiresConsent": false,
+      "key": "8EdU5qUVuXTUrWOFD6OuKw"
+    },
+    "qualtrics": {
+      "enabled": true,
+      "zoneId": "ZN_0oiiBct2GTPfYVw"
+    }
+  },
+  "marketo": {
+    "enabled": true,
+    "baseUrl": "https://landing1.gehealthcare.com",
+    "munchkinId": "005-SHS-767",
+    "contactForms": {
+      "en": 54607,
+      "de": 58478,
+      "fr": 58530,
+      "es": 58527,
+      "it": 58533,
+      "pt": 144372
+    },
+    "gatedForms": {
+      "en": 123232,
+      "de": 123233,
+      "es": 123234,
+      "fr": 123235,
+      "it": 123236,
+      "pt": 123232
+    },
+    "pageForms": {
+      "/products-and-solutions/digital-tools-fleet-solutions": 113619,
+      "/de/produkte-und-loesungen/digitale-tools-flottenloesungen": 113674,
+      "/fr/produits-et-solutions/outils-numeriques-solutions-de-flotte": 113675,
+      "/es/productos-y-soluciones/herramientas-digitales-soluciones-de-flota": 113676,
+      "/it/prodotti-e-soluzioni/strumenti-digitali-soluzioni-per-flotte": 113677,
+      "/products-and-solutions/digital-tools-individual-solutions": 116745,
+      "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen": 116746,
+      "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles": 116747,
+      "/es/productos-y-soluciones/herramientas-digitales-soluciones-individuales": 116748,
+      "/it/prodotti-e-soluzioni/strumenti-digitali-soluzioni-individuali": 116749,
+      "/products-and-solutions/ai/caption-ai": 129497,
+      "/products-and-solutions/ai/auto-bladder": 135077
+    },
+    "messages": {
+      "en": { "close": "Close", "loading": "Loading…", "thankYou": "Thank you. We have received your request." },
+      "de": { "close": "Schließen", "loading": "Wird geladen…", "thankYou": "Vielen Dank. Wir haben Ihre Anfrage erhalten." },
+      "fr": { "close": "Fermer", "loading": "Chargement…", "thankYou": "Merci. Nous avons bien reçu votre demande." },
+      "es": { "close": "Cerrar", "loading": "Cargando…", "thankYou": "Gracias. Hemos recibido su solicitud." },
+      "it": { "close": "Chiudi", "loading": "Caricamento…", "thankYou": "Grazie. Abbiamo ricevuto la tua richiesta." },
+      "pt": { "close": "Fechar", "loading": "Carregando…", "thankYou": "Obrigado. Recebemos a sua solicitação." }
+    }
+  }
+}

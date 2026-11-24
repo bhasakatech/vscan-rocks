@@ -1,0 +1,92 @@
+{
+  "definitions": [
+    {
+      "title": "Cards Publications",
+      "id": "cards-publications",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Cards Publications",
+              "filter": "cards-publications",
+              "model": "cards-publications"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Cards Publications Item",
+      "id": "cards-publications-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Cards Publications Item",
+              "model": "cards-publications-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "cards-publications",
+      "fields": [
+        {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Options",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Alt",
+              "value": "alt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cards-publications-item",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "label": "Image Alt Text",
+          "value": ""
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "text",
+          "label": "Text",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "cards-publications",
+      "components": [
+        "cards-publications-item"
+      ]
+    }
+  ]
+}

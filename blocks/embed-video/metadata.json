@@ -1,0 +1,19 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "video"
+  },
+  "contentPattern": "Rows: [optional placeholder image] [YouTube/Vimeo/other URL]. Loads the iframe lazily or on placeholder click.",
+  "options": [],
+  "memberVariantIds": [
+    "v_cd157da75fe3"
+  ],
+  "usage": "YouTube tutorial videos on tutorial detail pages.",
+  "reuseGuidance": "Use for third-party embeds; for native MP4 files use video-inline."
+}

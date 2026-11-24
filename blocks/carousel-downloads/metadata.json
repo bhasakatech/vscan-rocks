@@ -1,0 +1,19 @@
+{
+  "variantName": "carousel-downloads",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + heading + link"
+  },
+  "contentPattern": "One row per slide: [document cover image] [rich text: label, title, description, download link]. Shows a \"01 / 06\" counter and slide indicators.",
+  "options": [],
+  "memberVariantIds": [
+    "v_b5a4c41b4ea7"
+  ],
+  "usage": "Downloadable sales sheets and brochures on specialty pages.",
+  "reuseGuidance": "Use for document download sliders."
+}

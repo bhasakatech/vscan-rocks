@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-specialties",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + image + text"
+  },
+  "contentPattern": "One row per specialty: [icon image] [rich text: linked label]. Square tiles in a horizontal scroller; the whole tile is clickable when it holds a single link.",
+  "options": [],
+  "memberVariantIds": [
+    "v_63399f27d842"
+  ],
+  "usage": "Clinical specialty navigation row on the homepage.",
+  "reuseGuidance": "Use for icon + label link tiles that scroll horizontally."
+}

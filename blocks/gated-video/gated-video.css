@@ -1,0 +1,100 @@
+/* gated-video: blurred 16:9 poster with a centered heading, copy and CTA */
+.gated-video {
+  position: relative;
+  margin: 0 0 32px;
+  padding: 56.25% 0 0;
+  color: rgb(255 255 255);
+  border-color: rgb(255 255 255);
+}
+
+.gated-video .gated-video-poster {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+.gated-video .gated-video-poster picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gated-video .gated-video-poster img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  filter: blur(10px) brightness(0.15);
+}
+
+.gated-video .gated-video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.gated-video .gated-video-overlay h3 {
+  margin: 0 0 16px;
+  color: rgb(255 255 255);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.25px;
+}
+
+.gated-video .gated-video-overlay p {
+  margin: 0 0 24px;
+  color: rgb(255 255 255);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.gated-video .gated-video-overlay p.button-wrapper {
+  align-self: stretch;
+  margin: 0;
+}
+
+main .gated-video a.button:any-link {
+  display: flex;
+  width: 100%;
+  margin: 0 0 16px;
+  border: 1px solid var(--brand-purple);
+  border-radius: var(--button-radius);
+  padding: 12px 24px 12.8px;
+  background-color: var(--brand-purple);
+  color: rgb(255 255 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .gated-video .gated-video-poster img {
+    border-radius: 8px;
+  }
+
+  .gated-video .gated-video-overlay h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .gated-video .gated-video-overlay p.button-wrapper {
+    align-self: center;
+  }
+
+  main .gated-video a.button:any-link {
+    width: auto;
+    margin: 0 16px 0 0;
+  }
+}

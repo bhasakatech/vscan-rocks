@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-links",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + image"
+  },
+  "contentPattern": "One row per tile: [image, optional] [rich text: link title]. Image tiles form a grid; tiles without an image render as link chips.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a80d0446d3ed",
+    "v_faa8025183f4"
+  ],
+  "usage": "Homepage teaser tiles to the education sections; with the alt option, the pill-shaped category chips on publication pages.",
+  "reuseGuidance": "Use alt for a compact row of category/filter links without images."
+}

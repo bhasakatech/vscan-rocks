@@ -50,7 +50,25 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "accordion-faq",
+        "cards-features",
+        "cards-icon",
+        "cards-links",
+        "cards-publications",
+        "cards-specialties",
+        "cards-tiles",
+        "carousel-clips",
+        "carousel-downloads",
+        "carousel-testimonial",
+        "columns-probe-specs",
+        "columns-promo",
+        "embed-video",
+        "filterable-library",
+        "gated-video",
+        "hero-banner",
+        "topic-tag",
+        "video-inline"
       ]
     }
   ]

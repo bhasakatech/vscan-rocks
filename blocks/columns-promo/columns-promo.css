@@ -1,0 +1,289 @@
+/* columns-promo: media column beside a content column (source section .twocol) */
+.columns-promo > .columns-promo-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-promo .columns-promo-img-col {
+  line-height: 0;
+}
+
+.columns-promo .columns-promo-img-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.columns-promo .columns-promo-content-col > :first-child {
+  margin-top: 0;
+}
+
+.columns-promo .columns-promo-content-col > :last-child {
+  margin-bottom: 0;
+}
+
+/* default look (source #app .twocol) */
+.columns-promo .columns-promo-content-col h2 {
+  width: fit-content;
+  margin: 0 0 16px;
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.25px;
+}
+
+.columns-promo .columns-promo-content-col p {
+  margin: 0 0 16px;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.columns-promo .columns-promo-content-col ul {
+  margin: 0 0 24px;
+  padding-left: 24px;
+  color: #6f6d7e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* app icon beside the heading: desktop only */
+.columns-promo .columns-promo-content-col > p:has(> picture) {
+  display: none;
+}
+
+.columns-promo .columns-promo-content-col > p:has(> picture) img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 16px;
+}
+
+/* store badges sit side by side */
+.columns-promo .columns-promo-content-col > p:has(> a > picture) {
+  display: inline-block;
+  margin: 0 16px 0 0;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.columns-promo .columns-promo-content-col > p:has(> a > picture) img {
+  width: auto;
+  height: 45px;
+}
+
+/* image-right-wide (source #rcog .twocol.twocol75 on the purple band) */
+.columns-promo.image-right-wide {
+  background-color: var(--brand-purple);
+
+  /* paints the purple band edge to edge, over the section padding */
+  border-image: conic-gradient(var(--brand-purple) 0 0) fill 0 / 0 / var(--section-padding) 100vw;
+}
+
+.columns-promo.image-right-wide > .columns-promo-row {
+  gap: 40px;
+}
+
+.columns-promo.image-right-wide .columns-promo-img-col img {
+  border-radius: 0;
+}
+
+.columns-promo.image-right-wide .columns-promo-content-col > p:has(+ h2) {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3616px;
+}
+
+.columns-promo.image-right-wide .columns-promo-content-col h2 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.columns-promo.image-right-wide .columns-promo-content-col p.button-wrapper {
+  display: block;
+  margin: 0;
+}
+
+main .columns-promo.image-right-wide a.button:any-link {
+  width: 100%;
+  border: 0 none #fff;
+  background-color: #fff;
+  color: var(--brand-purple);
+  font-weight: 700;
+}
+
+main .columns-promo.image-right-wide a.button:hover,
+main .columns-promo.image-right-wide a.button:focus-visible {
+  background-color: #fff;
+  color: var(--brand-purple-dark);
+}
+
+@media (width >= 900px) {
+  .columns-promo > .columns-promo-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .columns-promo > .columns-promo-row > div {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  /* default look: 558 / 462 split with a 120px gutter at 1140px */
+  .columns-promo > .columns-promo-row:has(> .columns-promo-img-col) {
+    position: relative;
+    gap: 120px;
+  }
+
+  .columns-promo > .columns-promo-row > .columns-promo-img-col {
+    flex-grow: 558;
+  }
+
+  .columns-promo > .columns-promo-row > .columns-promo-content-col {
+    flex-grow: 462;
+  }
+
+  .columns-promo .columns-promo-img-col img {
+    border-radius: 8px;
+  }
+
+  .columns-promo .columns-promo-content-col h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .columns-promo .columns-promo-content-col p {
+    margin-bottom: 32px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .columns-promo .columns-promo-content-col ul {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .columns-promo .columns-promo-content-col > p:has(> picture) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    line-height: 0;
+  }
+
+  /* image-right-wide: 7/12 text, 5/12 media, 24px gutter */
+  .columns-promo.image-right-wide > .columns-promo-row:has(> .columns-promo-img-col) {
+    gap: 24px;
+  }
+
+  .columns-promo.image-right-wide .columns-promo-img-col img {
+    border-radius: 0;
+  }
+
+  .columns-promo.image-right-wide > .columns-promo-row > .columns-promo-content-col {
+    order: 1;
+    flex-grow: 7;
+  }
+
+  .columns-promo.image-right-wide > .columns-promo-row > .columns-promo-img-col {
+    order: 2;
+    flex-grow: 5;
+  }
+
+  .columns-promo.image-right-wide .columns-promo-content-col > p:has(+ h2) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .columns-promo.image-right-wide .columns-promo-content-col h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  main .columns-promo.image-right-wide a.button:any-link {
+    width: auto;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- the text-only rules below only match rows
+   without an image, which the image-column rules above never match */
+
+/* text-only columns (source .items.twocol.twocol4060.bordercol, e.g. Anatomy / Evaluation):
+   label + text per column, the second column's paragraphs side by side on desktop */
+.columns-promo > .columns-promo-row:not(:has(img)) {
+  align-items: stretch;
+  gap: 0;
+}
+
+.columns-promo > .columns-promo-row:not(:has(img)) > div + div {
+  padding-top: 32px;
+}
+
+.columns-promo > .columns-promo-row:not(:has(img)) > div > p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.columns-promo > .columns-promo-row:not(:has(img)) > div > p:first-child {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--heading-color);
+}
+
+.columns-promo > .columns-promo-row:not(:has(img)) > div > p + p + p {
+  margin-top: 24px;
+}
+
+@media (width >= 900px) {
+  .columns-promo > .columns-promo-row:not(:has(img)) {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: start;
+    gap: 0;
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div:first-child {
+    align-self: stretch;
+    padding-right: 24px;
+    border-right: 1px solid rgb(199 200 207);
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div + div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    padding: 0 0 0 24px;
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div + div > p:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div > p:first-child {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div:first-child > p + p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .columns-promo > .columns-promo-row:not(:has(img)) > div + div > p + p + p {
+    margin-top: 0;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */

@@ -1,0 +1,256 @@
+/* carousel-downloads: source #sales-sheets (swiper.gallery-slider .twocol) */
+.carousel-downloads {
+  position: relative;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.carousel-downloads .carousel-downloads-slides,
+.carousel-downloads .carousel-downloads-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-downloads .carousel-downloads-slides {
+  display: flex;
+  gap: 16px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+  scrollbar-width: none;
+}
+
+.carousel-downloads .carousel-downloads-slides::-webkit-scrollbar {
+  display: none;
+}
+
+/* mobile: image stacked above text */
+.carousel-downloads .carousel-downloads-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  min-width: 0;
+}
+
+.carousel-downloads .carousel-downloads-slide-media,
+.carousel-downloads .carousel-downloads-slide-media p {
+  margin: 0;
+  line-height: 0;
+}
+
+.carousel-downloads .carousel-downloads-slide-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-downloads .carousel-downloads-slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carousel-downloads .carousel-downloads-slide-content > * {
+  margin: 0;
+}
+
+/* "01 / 06" (source .posterCount) */
+.carousel-downloads .carousel-downloads-slide-content .carousel-downloads-counter {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.carousel-downloads .carousel-downloads-counter b {
+  font-weight: inherit;
+}
+
+.carousel-downloads .carousel-downloads-counter span {
+  color: var(--heading-color);
+}
+
+/* label (source .pretitle, SourceSansProSemiBold) */
+.carousel-downloads .carousel-downloads-slide-content > p:has(+ h2, + h3) {
+  margin-bottom: 24px;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3616px;
+}
+
+.carousel-downloads .carousel-downloads-slide-content h2,
+.carousel-downloads .carousel-downloads-slide-content h3 {
+  margin-bottom: 16px;
+  color: var(--heading-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -1.25px;
+}
+
+/* description (source .textsmall, max-width 80%) */
+.carousel-downloads .carousel-downloads-slide-content :is(h2, h3) + p {
+  max-width: 80%;
+  margin-bottom: 32px;
+}
+
+.carousel-downloads .carousel-downloads-slide-content p.button-wrapper {
+  align-self: stretch;
+}
+
+/* download buttons: source .button.white (white fill, purple outline) */
+main .carousel-downloads a.button:any-link {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  border-color: var(--brand-purple);
+  background-color: #fff;
+  color: var(--brand-purple);
+  font-weight: 700;
+}
+
+main .carousel-downloads a.button:hover,
+main .carousel-downloads a.button:focus-visible {
+  border-color: var(--brand-purple-dark);
+  background-color: #fff;
+  color: var(--brand-purple-dark);
+}
+
+/* non-download links: source .button.purpleBorder (transparent, regular weight) */
+main .carousel-downloads a.button:any-link:not([href$='.pdf' i]) {
+  background-color: transparent;
+  font-weight: 400;
+}
+
+main .carousel-downloads a.button:not([href$='.pdf' i]):hover,
+main .carousel-downloads a.button:not([href$='.pdf' i]):focus-visible {
+  background-color: var(--brand-purple-dark);
+  color: #fff;
+}
+
+/* pagination (source .swiper-pagination bullets) */
+.carousel-downloads .carousel-downloads-slide-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 45px 0 7px;
+}
+
+.carousel-downloads .carousel-downloads-slide-indicator button {
+  display: block;
+  width: 32px;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #c7c8cf;
+  cursor: pointer;
+}
+
+.carousel-downloads .carousel-downloads-slide-indicator button:disabled {
+  background-color: var(--brand-purple);
+  cursor: default;
+}
+
+/* arrows: hidden on mobile like the source */
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-downloads .carousel-downloads-navigation-buttons button {
+  display: none;
+}
+
+@media (width >= 900px) {
+  .carousel-downloads .carousel-downloads-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0 96px;
+  }
+
+  .carousel-downloads .carousel-downloads-slide-content .carousel-downloads-counter {
+    margin-bottom: 32px;
+  }
+
+  .carousel-downloads .carousel-downloads-slide-content > p:has(+ h2, + h3) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .carousel-downloads .carousel-downloads-slide-content h2,
+  .carousel-downloads .carousel-downloads-slide-content h3 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  main .carousel-downloads a.button:any-link {
+    display: inline-flex;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .carousel-downloads .carousel-downloads-slide-indicators {
+    padding: 46px 0 6px;
+  }
+
+  .carousel-downloads .carousel-downloads-slide-indicator button {
+    width: 80px;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .carousel-downloads .carousel-downloads-navigation-buttons button {
+    position: absolute;
+    top: 264px;
+    z-index: 1;
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background-color: var(--brand-purple);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .carousel-downloads .carousel-downloads-navigation-buttons button:hover,
+  .carousel-downloads .carousel-downloads-navigation-buttons button:focus-visible {
+    background-color: var(--brand-purple-dark);
+  }
+
+  .carousel-downloads .carousel-downloads-navigation-buttons button:disabled {
+    display: none;
+  }
+
+  .carousel-downloads .carousel-downloads-navigation-buttons .carousel-downloads-prev {
+    left: 24px;
+  }
+
+  .carousel-downloads .carousel-downloads-navigation-buttons .carousel-downloads-next {
+    right: 24px;
+  }
+
+  /* source swiper-navigation-icon: 11x20 chevron */
+  .carousel-downloads .carousel-downloads-navigation-buttons button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11px;
+    height: 20px;
+    background-color: currentcolor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 20'%3E%3Cpath d='M0.38 20.08a.69.69 0 0 1 0-.98l8.82-8.82L.38 1.46a.69.69 0 0 1 .98-.98l9.07 9.07a1.03 1.03 0 0 1 0 1.46l-9.07 9.07a.69.69 0 0 1-.98 0Z'/%3E%3C/svg%3E") center / contain no-repeat;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-downloads .carousel-downloads-navigation-buttons .carousel-downloads-prev::after {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}

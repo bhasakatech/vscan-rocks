@@ -1,0 +1,25 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "large",
+    "structure": "heading + link"
+  },
+  "contentPattern": "Rows: [background image] [rich text: eyebrow, heading, copy, CTAs, price] [optional badge image].",
+  "options": [
+    {
+      "class": "badge-column",
+      "label": "Badge Column"
+    }
+  ],
+  "memberVariantIds": [
+    "v_5885d677028b",
+    "v_5885d677028b-1"
+  ],
+  "usage": "Page-opening hero on the homepage, specialty and product pages; also webinar promo banners.",
+  "reuseGuidance": "Use badge-column on product pages with an award badge beside the text."
+}

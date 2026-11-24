@@ -1,0 +1,25 @@
+{
+  "variantName": "carousel-testimonial",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + heading + link + list"
+  },
+  "contentPattern": "One row per slide: [portrait image] [rich text: quote, name, role, CTA link]. Arrows and indicators are added only when there is more than one slide.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_9c7b25a0209c",
+    "v_9c7b25a0209c-1"
+  ],
+  "usage": "Clinician testimonials on specialty and product pages.",
+  "reuseGuidance": "The alt option marks the single-slide presentation used on product pages."
+}

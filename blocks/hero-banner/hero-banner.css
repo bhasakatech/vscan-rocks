@@ -1,0 +1,279 @@
+/* hero-banner: source #support (default) and #hero (badge-column) */
+.hero-banner {
+  position: relative;
+  padding: 38px 20px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.hero-banner.badge-column {
+  color: var(--text-color);
+}
+
+/* media: inline image on mobile, full-bleed background on desktop */
+.hero-banner .hero-banner-media {
+  margin-bottom: 32px;
+}
+
+.hero-banner .hero-banner-media p {
+  margin: 0;
+}
+
+.hero-banner .hero-banner-media picture,
+.hero-banner .hero-banner-media img {
+  display: block;
+  width: 100%;
+}
+
+.hero-banner:where(.badge-column) .hero-banner-media {
+  height: 281px;
+  margin: -38px -20px 25px;
+}
+
+.hero-banner:where(.badge-column) .hero-banner-media div,
+.hero-banner:where(.badge-column) .hero-banner-media p,
+.hero-banner:where(.badge-column) .hero-banner-media picture,
+.hero-banner:where(.badge-column) .hero-banner-media img {
+  height: 100%;
+}
+
+.hero-banner:where(.badge-column) .hero-banner-media img {
+  object-fit: cover;
+  object-position: 75% 50%;
+}
+
+/* award badge */
+.hero-banner .hero-banner-badge {
+  position: absolute;
+  z-index: 2;
+  top: 171px;
+  right: 20px;
+  width: 168px;
+  line-height: 0;
+}
+
+.hero-banner .hero-banner-badge p {
+  margin: 0;
+}
+
+.hero-banner .hero-banner-badge img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* text */
+.hero-banner .hero-banner-content {
+  position: relative;
+  z-index: 1;
+  color: var(--text-color);
+}
+
+.hero-banner .hero-banner-content > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 19px;
+}
+
+.hero-banner .hero-banner-content > div > * {
+  flex: 0 0 100%;
+}
+
+.hero-banner .hero-banner-content :is(h1, h2) {
+  margin: 0 0 16px;
+  font-weight: 500;
+}
+
+.hero-banner .hero-banner-content :is(h1, h2) + p {
+  margin-bottom: 16px;
+  font-size: var(--body-font-size-l);
+  line-height: 28px;
+}
+
+.hero-banner .hero-banner-content p.button-wrapper {
+  margin: 0 0 16px;
+}
+
+main .hero-banner .hero-banner-content a.button:any-link {
+  width: 100%;
+}
+
+/* price line after the CTAs */
+.hero-banner .hero-banner-content p.button-wrapper + p:not(.button-wrapper) {
+  margin: 24px 0 25px;
+  color: var(--heading-color);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (width >= 900px) {
+  .hero-banner {
+    padding: 96px 42px;
+  }
+
+  .hero-banner.badge-column {
+    display: flex;
+    align-items: center;
+    background-color: var(--brand-lavender);
+  }
+
+  .hero-banner .hero-banner-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .hero-banner .hero-banner-media div,
+  .hero-banner .hero-banner-media p,
+  .hero-banner .hero-banner-media picture,
+  .hero-banner .hero-banner-media img {
+    height: 100%;
+  }
+
+  .hero-banner .hero-banner-media img {
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .hero-banner .hero-banner-content {
+    flex: 1 1 auto;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .hero-banner .hero-banner-content > div {
+    max-width: 558px;
+  }
+
+  .hero-banner .hero-banner-content > div > p.button-wrapper {
+    flex: 0 0 auto;
+  }
+
+  .hero-banner .hero-banner-content h2 {
+    max-width: 90%;
+  }
+
+  /* the h1 spans the full 570px source column (558px text + 12px gutter) */
+  .hero-banner .hero-banner-content h1 {
+    flex-basis: calc(100% + 12px);
+    margin-right: -12px;
+  }
+
+  .hero-banner .hero-banner-content :is(h1, h2) + p {
+    margin-bottom: 24px;
+    line-height: 32px;
+  }
+
+  main .hero-banner .hero-banner-content a.button:any-link {
+    width: auto;
+  }
+
+  /* CTAs closing the text: no trailing gap */
+  .hero-banner .hero-banner-content p.button-wrapper:last-child,
+  .hero-banner .hero-banner-content p.button-wrapper:has(+ p.button-wrapper:last-child) {
+    margin-bottom: 0;
+  }
+
+  .hero-banner .hero-banner-content p.button-wrapper + p:not(.button-wrapper) {
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+
+  .hero-banner .hero-banner-badge {
+    top: 32px;
+    right: max(42px, calc((100% - 1140px) / 2));
+    width: 215px;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- article-header media paragraphs never
+   co-occur with the CTA/price paragraphs of the landing looks above */
+
+/* blog article header (source #detailhero): photo behind a 30% black overlay, white date
+   and h1 centered in a 560px band */
+.section.article-header .hero-banner {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 560px;
+  background-color: transparent;
+}
+
+.section.article-header .hero-banner .hero-banner-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section.article-header .hero-banner .hero-banner-media div,
+.section.article-header .hero-banner .hero-banner-media p,
+.section.article-header .hero-banner .hero-banner-media picture,
+.section.article-header .hero-banner .hero-banner-media img {
+  height: 100%;
+}
+
+.section.article-header .hero-banner .hero-banner-media img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.section.article-header .hero-banner .hero-banner-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 30%);
+}
+
+.section.article-header .hero-banner .hero-banner-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #fff;
+}
+
+.section.article-header .hero-banner .hero-banner-content > div > p:has(+ h1) {
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3616px;
+}
+
+.section.article-header .hero-banner .hero-banner-content h1 {
+  margin: 0 0 48px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+@media (width >= 900px) {
+  .section.article-header .hero-banner .hero-banner-content {
+    max-width: 1140px;
+  }
+
+  .section.article-header .hero-banner .hero-banner-content > div {
+    max-width: none;
+  }
+
+  .section.article-header .hero-banner .hero-banner-content > div > p:has(+ h1) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .section.article-header .hero-banner .hero-banner-content h1 {
+    flex-basis: 100%;
+    margin: 0 0 16px;
+    font-size: 64px;
+    line-height: 72px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */

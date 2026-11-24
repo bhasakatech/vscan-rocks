@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + list + link"
+  },
+  "contentPattern": "Two columns: [image] [rich text: heading, copy, list, buttons/store badges].",
+  "options": [
+    {
+      "class": "image-right-wide",
+      "label": "Image Right Wide"
+    }
+  ],
+  "memberVariantIds": [
+    "v_232b54507465",
+    "v_971774914dc0"
+  ],
+  "usage": "App promo and e-learning promos on the homepage and specialty pages.",
+  "reuseGuidance": "Use image-right-wide when the illustration sits on the right and takes the wider share."
+}

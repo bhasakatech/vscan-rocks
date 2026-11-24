@@ -1,0 +1,25 @@
+{
+  "variantName": "video-inline",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "video"
+  },
+  "contentPattern": "Rows: [link to video file or YouTube/Vimeo URL] [optional poster image]. Native files render with controls and the poster.",
+  "options": [
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "v_f330e2a1ca52",
+    "v_9f5a55a19434"
+  ],
+  "usage": "Native product videos in blog articles and product pages.",
+  "reuseGuidance": "Use dark for the rounded dark frame. Add the autoplay class manually for a muted background loop."
+}

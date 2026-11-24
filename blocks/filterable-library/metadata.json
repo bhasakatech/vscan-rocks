@@ -1,0 +1,25 @@
+{
+  "variantName": "filterable-library",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field + link + image + heading"
+  },
+  "contentPattern": "Optional first row: filter title (e.g. \"Care Area\"). Then one row per item: [thumbnail image] [rich text: linked title, description] [tags, comma separated]. Tags build the checkbox filter sidebar.",
+  "options": [
+    {
+      "class": "featured-grid-pagination",
+      "label": "Featured Grid Pagination"
+    }
+  ],
+  "memberVariantIds": [
+    "v_c5b0bd2e49b6",
+    "v_4ca99811249c"
+  ],
+  "usage": "Tutorial and clinical image libraries in the education section.",
+  "reuseGuidance": "Use featured-grid-pagination for the clinical images library: first result spans the grid and results are paginated (9 per page)."
+}

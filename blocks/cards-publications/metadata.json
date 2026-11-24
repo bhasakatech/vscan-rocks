@@ -1,0 +1,26 @@
+{
+  "variantName": "cards-publications",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link"
+  },
+  "contentPattern": "One row per publication: [rich text: authors, title, institution]. Text-only cards in a horizontal scroller; navigation appears only when cards overflow.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_e22576f7b96f",
+    "v_e22576f7b96f-1",
+    "v_e22576f7b96f-2"
+  ],
+  "usage": "Publication references on specialty pages.",
+  "reuseGuidance": "Use alt to wrap the cards into a grid instead of scrolling."
+}
