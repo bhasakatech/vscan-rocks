@@ -95,12 +95,12 @@
       "/products-and-solutions/ai/auto-bladder": 135077
     },
     "messages": {
-      "en": { "close": "Close", "loading": "Loading…", "thankYou": "Thank you. We have received your request." },
-      "de": { "close": "Schließen", "loading": "Wird geladen…", "thankYou": "Vielen Dank. Wir haben Ihre Anfrage erhalten." },
-      "fr": { "close": "Fermer", "loading": "Chargement…", "thankYou": "Merci. Nous avons bien reçu votre demande." },
-      "es": { "close": "Cerrar", "loading": "Cargando…", "thankYou": "Gracias. Hemos recibido su solicitud." },
-      "it": { "close": "Chiudi", "loading": "Caricamento…", "thankYou": "Grazie. Abbiamo ricevuto la tua richiesta." },
-      "pt": { "close": "Fechar", "loading": "Carregando…", "thankYou": "Obrigado. Recebemos a sua solicitação." }
+      "en": { "contactTitle": "Contact", "close": "Close", "loading": "Loading…", "thankYou": "Thank you. We have received your request." },
+      "de": { "contactTitle": "Kontakt", "close": "Schließen", "loading": "Wird geladen…", "thankYou": "Vielen Dank. Wir haben Ihre Anfrage erhalten." },
+      "fr": { "contactTitle": "Contactez-nous", "close": "Fermer", "loading": "Chargement…", "thankYou": "Merci. Nous avons bien reçu votre demande." },
+      "es": { "contactTitle": "Contáctenos", "close": "Cerrar", "loading": "Cargando…", "thankYou": "Gracias. Hemos recibido su solicitud." },
+      "it": { "contactTitle": "Contattaci", "close": "Chiudi", "loading": "Caricamento…", "thankYou": "Grazie. Abbiamo ricevuto la tua richiesta." },
+      "pt": { "contactTitle": "Contato", "close": "Fechar", "loading": "Carregando…", "thankYou": "Obrigado. Recebemos a sua solicitação." }
     }
   }
 }

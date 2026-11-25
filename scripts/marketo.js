@@ -70,7 +70,8 @@ export default async function openMarketoForm(link) {
   if (!formId) return;
 
   const dialog = buildDialog(messages);
-  const title = link.dataset.mktotitle || link.textContent.trim();
+  const contactTitle = !link.closest('.gated-video') && messages.contactTitle;
+  const title = link.dataset.mktotitle || contactTitle || link.textContent.trim();
   dialog.querySelector('.marketo-modal-title').textContent = title;
   dialog.setAttribute('aria-label', title);
   const status = dialog.querySelector('.marketo-modal-status');
