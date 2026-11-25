@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Malaysia</title>
+    <defs>
+        <path d="M0,9 C0,13.9705627 4.02943725,18 9,18 C13.9705627,18 18,13.9705627 18,9 C18,4.02943725 13.9705627,0 9,0 C4.02943725,0 0,4.02943725 0,9 Z" id="path-my"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-my" fill="white">
+            <use xlink:href="#path-my"></use>
+        </mask>
+        <!-- red/white stripes -->
+        <rect mask="url(#mask-my)" x="0" y="0" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="1.2857" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="2.5714" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="3.8571" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="5.1428" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="6.4285" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="7.7142" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="9" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="10.2857" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="11.5714" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="12.8571" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="14.1428" width="18" height="1.2857" fill="#FFFFFF"/>
+        <rect mask="url(#mask-my)" x="0" y="15.4285" width="18" height="1.2857" fill="#CC0001"/>
+        <rect mask="url(#mask-my)" x="0" y="16.7142" width="18" height="1.2858" fill="#FFFFFF"/>
+        <!-- blue canton -->
+        <rect mask="url(#mask-my)" x="0" y="0" width="9" height="9" fill="#010066"/>
+        <!-- yellow crescent -->
+        <circle mask="url(#mask-my)" cx="3.9" cy="4.5" r="2.4" fill="#FFCC00"/>
+        <circle mask="url(#mask-my)" cx="4.7" cy="4.5" r="1.95" fill="#010066"/>
+        <!-- yellow 14-point star (simplified) -->
+        <polygon mask="url(#mask-my)" fill="#FFCC00" points="6.9,2.6 7.15,3.55 8.1,3.4 7.45,4.1 8.05,4.85 7.1,4.55 6.9,5.5 6.7,4.55 5.75,4.85 6.35,4.1 5.7,3.4 6.65,3.55"/>
+    </g>
+</svg>

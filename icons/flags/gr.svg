@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 15</title>
+    <defs>
+        <path d="M0,9.00032897 C0,13.9705879 4.02919281,17.9997807 8.99967103,17.9997807 L8.99967103,17.9997807 C13.9705879,17.9997807 18,13.9705879 18,9.00032897 L18,9.00032897 C18,4.02919281 13.9705879,0 8.99967103,0 L8.99967103,0 C4.02919281,0 0,4.02919281 0,9.00032897 L0,9.00032897 Z" id="path-1"></path>
+    </defs>
+    <g id="Vscan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Country_selection_3" transform="translate(-255.000000, -299.000000)">
+            <g id="Group-15" transform="translate(255.000000, 299.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#3B6DB4" mask="url(#mask-2)" points="10.0365763 2.00845568 27.0007676 2.00845568 27.0007676 0.0168869936 10.0365763 0.0168869936"></polygon>
+                <polygon id="Fill-3" fill="#FEFEFE" mask="url(#mask-2)" points="10.0365763 3.99980506 27.0007676 3.99980506 27.0007676 2.00845568 10.0365763 2.00845568"></polygon>
+                <polygon id="Fill-4" fill="#3B6DB4" mask="url(#mask-2)" points="10.0365763 5.99115443 27.0007676 5.99115443 27.0007676 3.99980506 10.0365763 3.99980506"></polygon>
+                <polygon id="Fill-5" fill="#FEFEFE" mask="url(#mask-2)" points="10.0365763 7.98250381 27.0007676 7.98250381 27.0007676 5.99115443 10.0365763 5.99115443"></polygon>
+                <polygon id="Fill-6" fill="#3B6DB4" mask="url(#mask-2)" points="10.0365763 10.0523667 27.0007676 10.0523667 27.0007676 7.98250381 10.0365763 7.98250381"></polygon>
+                <polygon id="Fill-7" fill="#FEFEFE" mask="url(#mask-2)" points="6.01286628 10.0523009 6.01286628 5.99108864 10.0350411 5.99108864 10.0350411 3.99973926 6.01286628 3.99973926 6.01286628 -0.0224355772 4.02151691 -0.0224355772 4.02151691 3.99973926 0 3.99973926 0 5.99108864 4.02151691 5.99108864 4.02151691 10.0523009 0 10.0523009 0 12.0436503 27.0007676 12.0436503 27.0007676 10.0523009"></polygon>
+                <polygon id="Fill-8" fill="#3B6DB4" mask="url(#mask-2)" points="6.01286628 3.99980506 10.0350411 3.99980506 10.0350411 0.0168869936 6.01286628 0.0168869936"></polygon>
+                <polygon id="Fill-9" fill="#3B6DB4" mask="url(#mask-2)" points="6.01286628 10.0523667 10.0350411 10.0523667 10.0350411 5.99115443 6.01286628 5.99115443"></polygon>
+                <polygon id="Fill-10" fill="#3B6DB4" mask="url(#mask-2)" points="0 3.99980506 4.02151691 3.99980506 4.02151691 0.0168869936 0 0.0168869936"></polygon>
+                <polygon id="Fill-11" fill="#3B6DB4" mask="url(#mask-2)" points="0 10.0523667 4.02151691 10.0523667 4.02151691 5.99115443 0 5.99115443"></polygon>
+                <polygon id="Fill-12" fill="#3B6DB4" mask="url(#mask-2)" points="0 14.0348462 27.0007676 14.0348462 27.0007676 12.0434968 0 12.0434968"></polygon>
+                <polygon id="Fill-13" fill="#FEFEFE" mask="url(#mask-2)" points="0 16.0261956 27.0007676 16.0261956 27.0007676 14.0348462 0 14.0348462"></polygon>
+                <polygon id="Fill-14" fill="#3B6DB4" mask="url(#mask-2)" points="0 18.0177642 27.0007676 18.0177642 27.0007676 16.0261956 0 16.0261956"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

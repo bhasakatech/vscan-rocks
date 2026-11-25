@@ -1,0 +1,2103 @@
+{
+  "countryTitle": {
+    "en": "Select your country",
+    "fr": "Sélectionnez votre pays",
+    "pt": "Selecione seu país",
+    "de": "Land auswählen",
+    "es": "Seleccione su país",
+    "it": "Seleziona il paese"
+  },
+  "countries": [
+    {
+      "id": "be-en",
+      "country": "be",
+      "lang": "en",
+      "locale": "en",
+      "label": "Belgium",
+      "langLabel": "EN",
+      "flag": "/icons/flags/be.svg",
+      "column": 0
+    },
+    {
+      "id": "be-fr",
+      "country": "be",
+      "lang": "fr",
+      "locale": "fr",
+      "label": "Belgique",
+      "langLabel": "FR",
+      "flag": "/icons/flags/be.svg",
+      "column": 0
+    },
+    {
+      "id": "br-pt",
+      "country": "br",
+      "lang": "pt",
+      "locale": "pt",
+      "label": "Brasil",
+      "langLabel": "PT",
+      "flag": "/icons/flags/br.webp",
+      "column": 0
+    },
+    {
+      "id": "bg-bg",
+      "country": "bg",
+      "lang": "bg",
+      "locale": "en",
+      "label": "Bulgaria",
+      "langLabel": "EN",
+      "flag": "/icons/flags/bg.svg",
+      "column": 0
+    },
+    {
+      "id": "hr-hr",
+      "country": "hr",
+      "lang": "hr",
+      "locale": "en",
+      "label": "Croatia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/hr.webp",
+      "column": 0
+    },
+    {
+      "id": "cz-cs",
+      "country": "cz",
+      "lang": "cs",
+      "locale": "en",
+      "label": "Czechia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/cz.svg",
+      "column": 0
+    },
+    {
+      "id": "dk-da",
+      "country": "dk",
+      "lang": "da",
+      "locale": "en",
+      "label": "Denmark",
+      "langLabel": "EN",
+      "flag": "/icons/flags/dk.svg",
+      "column": 0
+    },
+    {
+      "id": "de-de",
+      "country": "de",
+      "lang": "de",
+      "locale": "de",
+      "label": "Deutschland",
+      "langLabel": "DE",
+      "flag": "/icons/flags/de.svg",
+      "column": 0
+    },
+    {
+      "id": "es-es",
+      "country": "es",
+      "lang": "es",
+      "locale": "es",
+      "label": "España",
+      "langLabel": "ES",
+      "flag": "/icons/flags/es.webp",
+      "column": 0
+    },
+    {
+      "id": "ee-et",
+      "country": "ee",
+      "lang": "et",
+      "locale": "en",
+      "label": "Estonia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/ee.svg",
+      "column": 1
+    },
+    {
+      "id": "fi-fi",
+      "country": "fi",
+      "lang": "fi",
+      "locale": "en",
+      "label": "Finland",
+      "langLabel": "EN",
+      "flag": "/icons/flags/fi.svg",
+      "column": 1
+    },
+    {
+      "id": "fr-fr",
+      "country": "fr",
+      "lang": "fr",
+      "locale": "fr",
+      "label": "France",
+      "langLabel": "FR",
+      "flag": "/icons/flags/fr.svg",
+      "column": 1
+    },
+    {
+      "id": "gr-el",
+      "country": "gr",
+      "lang": "el",
+      "locale": "en",
+      "label": "Greece",
+      "langLabel": "EN",
+      "flag": "/icons/flags/gr.svg",
+      "column": 1
+    },
+    {
+      "id": "hu-hu",
+      "country": "hu",
+      "lang": "hu",
+      "locale": "en",
+      "label": "Hungary",
+      "langLabel": "EN",
+      "flag": "/icons/flags/hu.svg",
+      "column": 1
+    },
+    {
+      "id": "ie-en",
+      "country": "ie",
+      "lang": "en",
+      "locale": "en",
+      "label": "Ireland",
+      "langLabel": "EN",
+      "flag": "/icons/flags/ie.svg",
+      "column": 1
+    },
+    {
+      "id": "it-it",
+      "country": "it",
+      "lang": "it",
+      "locale": "it",
+      "label": "Italia",
+      "langLabel": "IT",
+      "flag": "/icons/flags/it.svg",
+      "column": 1
+    },
+    {
+      "id": "lv-lv",
+      "country": "lv",
+      "lang": "lv",
+      "locale": "en",
+      "label": "Latvia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/lv.svg",
+      "column": 1
+    },
+    {
+      "id": "lt-lt",
+      "country": "lt",
+      "lang": "lt",
+      "locale": "en",
+      "label": "Lithuania",
+      "langLabel": "EN",
+      "flag": "/icons/flags/lt.svg",
+      "column": 2
+    },
+    {
+      "id": "lu-de",
+      "country": "lu",
+      "lang": "de",
+      "locale": "en",
+      "label": "Luxembourg",
+      "langLabel": "EN",
+      "flag": "/icons/flags/lu.svg",
+      "column": 2
+    },
+    {
+      "id": "my-en",
+      "country": "my",
+      "lang": "en",
+      "locale": "en",
+      "label": "Malaysia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/my.svg",
+      "column": 2
+    },
+    {
+      "id": "nl-nl",
+      "country": "nl",
+      "lang": "nl",
+      "locale": "en",
+      "label": "Netherlands",
+      "langLabel": "EN",
+      "flag": "/icons/flags/nl.svg",
+      "column": 2
+    },
+    {
+      "id": "no-nb",
+      "country": "no",
+      "lang": "nb",
+      "locale": "en",
+      "label": "Norway",
+      "langLabel": "EN",
+      "flag": "/icons/flags/no.svg",
+      "column": 2
+    },
+    {
+      "id": "at-de",
+      "country": "at",
+      "lang": "de",
+      "locale": "de",
+      "label": "Österreich",
+      "langLabel": "DE",
+      "flag": "/icons/flags/at.svg",
+      "column": 2
+    },
+    {
+      "id": "pl-pl",
+      "country": "pl",
+      "lang": "pl",
+      "locale": "en",
+      "label": "Poland",
+      "langLabel": "EN",
+      "flag": "/icons/flags/pl.svg",
+      "column": 2
+    },
+    {
+      "id": "pt-pt",
+      "country": "pt",
+      "lang": "pt",
+      "locale": "pt",
+      "label": "Portugal",
+      "langLabel": "EN",
+      "flag": "/icons/flags/pt.webp",
+      "column": 2
+    },
+    {
+      "id": "ro-ro",
+      "country": "ro",
+      "lang": "ro",
+      "locale": "en",
+      "label": "Romania",
+      "langLabel": "EN",
+      "flag": "/icons/flags/ro.svg",
+      "column": 2
+    },
+    {
+      "id": "sk-sk",
+      "country": "sk",
+      "lang": "sk",
+      "locale": "en",
+      "label": "Slovakia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/sk.svg",
+      "column": 3
+    },
+    {
+      "id": "si-sl",
+      "country": "si",
+      "lang": "sl",
+      "locale": "en",
+      "label": "Slovenia",
+      "langLabel": "EN",
+      "flag": "/icons/flags/si.svg",
+      "column": 3
+    },
+    {
+      "id": "se-sv",
+      "country": "se",
+      "lang": "sv",
+      "locale": "en",
+      "label": "Sweden",
+      "langLabel": "EN",
+      "flag": "/icons/flags/se.svg",
+      "column": 3
+    },
+    {
+      "id": "ch-de",
+      "country": "ch",
+      "lang": "de",
+      "locale": "de",
+      "label": "Schweiz",
+      "langLabel": "DE",
+      "flag": "/icons/flags/ch.svg",
+      "column": 3
+    },
+    {
+      "id": "ch-fr",
+      "country": "ch",
+      "lang": "fr",
+      "locale": "fr",
+      "label": "Suisse",
+      "langLabel": "FR",
+      "flag": "/icons/flags/ch.svg",
+      "column": 3
+    },
+    {
+      "id": "gb-en",
+      "country": "gb",
+      "lang": "en",
+      "locale": "en",
+      "label": "UK",
+      "langLabel": "EN",
+      "flag": "/icons/flags/uk.svg",
+      "column": 3
+    }
+  ],
+  "pricing": {
+    "be-en": {
+      "title": "Pricing",
+      "countryLabel": "Belgium (EN)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-cl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-sl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-digital-tools-subscription?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-digital-tools-subscription?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "price": "€ 280 excl. VAT",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "€ 1.400 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI is included)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/clinical-specialties/aesthetics#aesthetics-pack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "be-fr": {
+      "title": "Tarifs",
+      "countryLabel": "Belgique (FR)",
+      "changeCountry": "Changer de pays",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 excl. TVA",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/equipment/vscan-air-cl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 excl. TVA",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/equipment/vscan-air-sl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Pour les utilisateurs de Vscan Air™",
+          "products": [
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Scanner vésical à ultrasons alimenté par IA pour Vscan Air™ CL",
+              "price": "€ 280 excl. TVA",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ pour Vscan Air™ SL",
+              "price": "€ 1.400 excl. TVA",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/caption-ai-pour-vscan-air-sl?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI est inclus)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=BE"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/specialites-cliniques/medecine-esthetique#aesthetics-pack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "br-pt": {
+      "title": "Preços",
+      "countryLabel": "Brazil (PT)",
+      "changeCountry": "Alterar país",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "R$ 35,000 sem ICMS",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Compre agora",
+                "href": "https://www.gehealthcare.com.br/loja/equipamentos/vscan-air"
+              },
+              "explore": {
+                "label": "Explore mais",
+                "href": "/pt/produtos-e-solucoes/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Compre agora",
+                "href": "https://www.gehealthcare.com/pt-br/shop/equipment/vscan-air-sl"
+              },
+              "explore": {
+                "label": "Explore mais",
+                "href": "/pt/produtos-e-solucoes/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Entre em contato",
+                "contact": true,
+                "mktoid": "129497",
+                "mktotitle": "Contato"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "de-de": {
+      "title": "Preis",
+      "countryLabel": "Deutschland (DE)",
+      "changeCountry": "Land ändern",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/equipment/vscan-air-cl?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/equipment/vscan-air-sl?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Für Vscan Air Bestandskunden",
+          "products": [
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/vscan-air-abonnement-fur-digitale-tools?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/vscan-air-abonnement-fur-digitale-tools?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "KI-gestützter Blasen-Ultraschall für Vscan Air™ CL",
+              "price": "€ 280 exkl. MwSt.",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ für Vscan Air™ SL",
+              "price": "€ 1.400 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/hdsri?countrylocale=DE"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI ist im Lieferumfang enthalten)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=DE"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/klinische-fachrichtungen/aesthetische-medizin#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/lung-guidance?countrylocale=DE"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de-de/shop/apps-and-accessories/autoas?countrylocale=DE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "es-es": {
+      "title": "Precios",
+      "countryLabel": "España (ES)",
+      "changeCountry": "Cambiar país",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 sin IVA",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/equipment/vscan-air-cl?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/es/productos-y-soluciones/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 sin IVA",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/equipment/vscan-air-sl?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/es/productos-y-soluciones/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Para los clientes que ya usan Vscan Air",
+          "products": [
+            {
+              "name": "Suscripción a herramientas digitales para Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/suscripcion-a-herramientas-digitales-vscan-air?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/es/productos-y-soluciones/herramientas-digitales-soluciones-individuales"
+              }
+            },
+            {
+              "name": "Suscripción a herramientas digitales para Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/suscripcion-a-herramientas-digitales-vscan-air?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/es/productos-y-soluciones/herramientas-digitales-soluciones-individuales"
+              }
+            },
+            {
+              "name": "Escáner vesical por ultrasonido con IA para Vscan Air™ CL",
+              "price": "€ 280 sin IVA",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ para Vscan Air™ SL",
+              "price": "€ 1.400 sin IVA",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/caption-ai-para-vscan-air-sl?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/hdsri?countrylocale=ES"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI incluido)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=ES"
+              },
+              "explore": {
+                "label": "Explorar más",
+                "href": "/es/especialidades-clinicas/medicina-estetica#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/lung-guidance?countrylocale=ES"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Comprar ahora",
+                "href": "https://www.gehealthcare.com/es-es/shop/apps-and-accessories/autoas?countrylocale=ES"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "fr-fr": {
+      "title": "Tarifs",
+      "countryLabel": "France (FR)",
+      "changeCountry": "Changer de pays",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 excl. TVA",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/equipment/vscan-air-cl?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 excl. TVA",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/equipment/vscan-air-sl?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Pour les utilisateurs de Vscan Air™",
+          "products": [
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Scanner vésical à ultrasons alimenté par IA pour Vscan Air™ CL",
+              "price": "€ 280 excl. TVA",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ pour Vscan Air™ SL",
+              "price": "€ 1.400 excl. TVA",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/apps-and-accessories/caption-ai-pour-vscan-air-sl?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI est inclus)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr-fr/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=FR"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/specialites-cliniques/medecine-esthetique#aesthetics-pack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "it-it": {
+      "title": "Prezzo",
+      "countryLabel": "Italia (IT)",
+      "changeCountry": "Cambia Paese",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 IVA escl.",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/equipment/vscan-air-cl?countrylocale=IT"
+              },
+              "explore": {
+                "label": "Esplora altro",
+                "href": "/it/prodotti-e-soluzioni/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 IVA escl.",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/equipment/vscan-air-sl?countrylocale=IT"
+              },
+              "explore": {
+                "label": "Esplora altro",
+                "href": "/it/prodotti-e-soluzioni/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Per chi ha giá acquistato Vscan Air",
+          "products": [
+            {
+              "name": "Scanner vescicale a ultrasuoni con IA per Vscan Air™ CL",
+              "price": "€ 280 IVA escl.",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=IT"
+              },
+              "explore": {
+                "label": "Esplora altro",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ per Vscan Air™ SL",
+              "price": "€ 1.400 IVA escl.",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/caption-ai-per-vscan-air-sl?countrylocale=IT"
+              },
+              "explore": {
+                "label": "Esplora altro",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "MyRemoteShare",
+              "price": "€ 299 IVA escl.",
+              "image": "/assets/pricing/vscan-my-remote-cart.webp",
+              "alt": "Vscan Air with My Remote Share",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.it/shop/apps-and-accessories/vscan-air-myremoteshare"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/hdsri?countrylocale=IT"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI è incluso)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=IT"
+              },
+              "explore": {
+                "label": "Esplora altro",
+                "href": "/it/specialita-cliniche/medicina-estetica#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/lung-guidance?countrylocale=IT"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Acquista ora",
+                "href": "https://www.gehealthcare.com/it-it/shop/apps-and-accessories/autoas?countrylocale=IT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "my-en": {
+      "title": "Pricing",
+      "countryLabel": "Malaysia (EN)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Contact us",
+                "contact": true,
+                "mktoid": "129497",
+                "mktotitle": "Contact"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Contact us",
+                "contact": true,
+                "mktoid": "129497",
+                "mktotitle": "Contact"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "price": "€ 280 excl. VAT",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Contact us",
+                "contact": true,
+                "mktoid": "129497",
+                "mktotitle": "Contact"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "€ 1.400 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Contact us",
+                "contact": true,
+                "mktoid": "129497",
+                "mktotitle": "Contact"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "nl-nl": {
+      "title": "Pricing",
+      "countryLabel": "Netherlands (NL)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-cl?countrylocale=NL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-sl?countrylocale=NL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "price": "€ 280 excl. VAT",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=NL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "€ 1.400 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=NL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/hdsri?countrylocale=NL"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI is included)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=NL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/clinical-specialties/aesthetics#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/lung-guidance?countrylocale=NL"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/autoas?countrylocale=NL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "no-nb": {
+      "title": "Pricing",
+      "countryLabel": "Norway (NB)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "NOK 52.000 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-cl?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "NOK 52.000 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/equipment/vscan-air-sl?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-digital-tools?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-digital-tools?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "price": "NOK 3.200 excl. VAT",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "NOK 16.000 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/hdsri?countrylocale=NO"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI is included)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=NO"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/clinical-specialties/aesthetics#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/lung-guidance?countrylocale=NO"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en/shop/apps-and-accessories/autoas?countrylocale=NO"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "at-de": {
+      "title": "Preis",
+      "countryLabel": "Österreich (DE)",
+      "changeCountry": "Land ändern",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "€ 4.500 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/equipment/vscan-air-cl?countrylocale=AT"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "€ 4.500 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/equipment/vscan-air-sl?countrylocale=AT"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Für Vscan Air Bestandskunden",
+          "products": [
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Kontakt",
+                "contact": true,
+                "mktoid": "129498",
+                "mktotitle": "Kontakt"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Kontakt",
+                "contact": true,
+                "mktoid": "129498",
+                "mktotitle": "Kontakt"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "KI-gestützter Blasen-Ultraschall für Vscan Air™ CL",
+              "price": "€ 280 exkl. MwSt.",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=AT"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ für Vscan Air™ SL",
+              "price": "€ 1.400 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=AT"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/hdsri?countrylocale=AT"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI ist im Lieferumfang enthalten)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=AT"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/klinische-fachrichtungen/aesthetische-medizin#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/lung-guidance?countrylocale=AT"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/autoas?countrylocale=AT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pl-pl": {
+      "title": "Pricing",
+      "countryLabel": "Poland (PL)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "PLN 20.100 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/equipment/vscan-air-cl?countrylocale=PL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "PLN 20.100 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/equipment/vscan-air-sl?countrylocale=PL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=PL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "PLN 6 450,00 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=PL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/hdsri?countrylocale=PL"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI is included)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/vscan-air-pakiet-estetyczny?countrylocale=PL"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/clinical-specialties/aesthetics#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "price": "PLN 1 200,00 excl. VAT",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/lung-guidance?countrylocale=PL"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "price": "PLN 3 200,00 excl. VAT",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/pl-pl/shop/apps-and-accessories/autoas?countrylocale=PL"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ch-de": {
+      "title": "Preis",
+      "countryLabel": "Schweiz (DE)",
+      "changeCountry": "Land ändern",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "CHF 4.450 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/equipment/vscan-air-cl?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "CHF 4.450 exkl. MwSt.",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/equipment/vscan-air-sl?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Für Vscan Air Bestandskunden",
+          "products": [
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-abonnement-fur-digitale-tools?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "Digital Tools-Abo für Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-abonnement-fur-digitale-tools?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/produkte-und-loesungen/digitale-tools-individuelle-loesungen"
+              }
+            },
+            {
+              "name": "KI-gestützter Blasen-Ultraschall für Vscan Air™ CL",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ für Vscan Air™ SL",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Kontakt",
+                "contact": true,
+                "mktoid": "129498",
+                "mktotitle": "Kontakt"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI ist im Lieferumfang enthalten)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Jetzt kaufen",
+                "href": "https://www.gehealthcare.com/de/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Mehr erfahren",
+                "href": "/de/klinische-fachrichtungen/aesthetische-medizin#aesthetics-pack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ch-fr": {
+      "title": "Tarifs",
+      "countryLabel": "Suisse (FR)",
+      "changeCountry": "Changer de pays",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "CHF 4.450 excl. TVA",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/equipment/vscan-air-cl?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "CHF 4.450 excl. TVA",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/equipment/vscan-air-sl?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Pour les utilisateurs de Vscan Air™",
+          "products": [
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Abonnement aux outils numériques pour Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/abonnements-aux-outils-numeriques-vscan-air?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/produits-et-solutions/outils-numeriques-solutions-individuelles"
+              }
+            },
+            {
+              "name": "Scanner vésical à ultrasons alimenté par IA pour Vscan Air™ CL",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ pour Vscan Air™ SL",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Contactez-nous",
+                "contact": true,
+                "mktoid": "129507",
+                "mktotitle": "Contactez-nous"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI est inclus)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Achetez maintenant",
+                "href": "https://www.gehealthcare.com/fr/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=CH"
+              },
+              "explore": {
+                "label": "Découvrez plus",
+                "href": "/fr/specialites-cliniques/medecine-esthetique#aesthetics-pack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gb-en": {
+      "title": "Pricing",
+      "countryLabel": "UK (EN)",
+      "changeCountry": "Change Country",
+      "groups": [
+        {
+          "products": [
+            {
+              "name": "Vscan Air™ CL",
+              "price": "£ 3,950 excl. VAT",
+              "image": "/assets/pricing/vscan_air-card2.webp",
+              "alt": "Vscan Air",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/equipment/vscan-air-cl?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-cl"
+              }
+            },
+            {
+              "name": "Vscan Air™ SL",
+              "price": "£ 3,950 excl. VAT",
+              "image": "/assets/pricing/vscan_air-sl-card2.webp",
+              "alt": "Vscan Air SL",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/equipment/vscan-air-sl?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/vscan-air-sl"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "For existing Vscan Air™ customers",
+          "products": [
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ CL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/vscan-air-digital-tools?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "Digital Tools Subscription for Vscan Air™ SL",
+              "image": "/assets/pricing/digital-tools-300-360.webp",
+              "alt": "Digital Tools",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/vscan-air-digital-tools?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/digital-tools-individual-solutions"
+              }
+            },
+            {
+              "name": "AI powered ultrasound bladder scanner for Vscan Air™ CL",
+              "price": "£ 230 excl. VAT",
+              "image": "/assets/pricing/vscan-air-cl-bladder-cart.webp",
+              "alt": "Vscan Air with Bladder Volume",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/vscan-air-cl-auto-bladder-volume?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/auto-bladder"
+              }
+            },
+            {
+              "name": "Caption AI™ for Vscan Air™ SL",
+              "price": "£ 1,200 excl. VAT",
+              "image": "/assets/pricing/vscan_air-cart-main-image-2025.webp",
+              "alt": "Vscan Air with Caption AI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/caption-ai-for-vscan-air-sl?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/products-and-solutions/ai/caption-ai"
+              }
+            },
+            {
+              "name": "HD SRI",
+              "image": "/assets/pricing/hd-sri.webp",
+              "alt": "HD SRI",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/hdsri?countrylocale=GB"
+              }
+            },
+            {
+              "name": "Vscan Air™ Aesthetics Pack",
+              "notes": [
+                "(HD-SRI is included)"
+              ],
+              "image": "/assets/pricing/vscan-air-aesthetics-pack.webp",
+              "alt": "Vscan Air Aesthetics Pack",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/vscan-air-aesthetics-pack?countrylocale=GB"
+              },
+              "explore": {
+                "label": "Explore more",
+                "href": "/clinical-specialties/aesthetics#aesthetics-pack"
+              }
+            },
+            {
+              "name": "Lung Guidance for Vscan Air™",
+              "image": "/assets/pricing/lung-guidance-cart.webp",
+              "alt": "AI Lung Guidance",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/lung-guidance?countrylocale=GB"
+              }
+            },
+            {
+              "name": "AutoAS for Vscan Air™ SL",
+              "image": "/assets/pricing/autoas-cart.webp",
+              "alt": "AutoAS",
+              "buy": {
+                "label": "Buy now",
+                "href": "https://www.gehealthcare.com/en-gb/shop/apps-and-accessories/autoas?countrylocale=GB"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M8.99945171,0 C4.02907168,0 0,4.02951031 0,9.00054829 L0,9.00054829 C0,13.9709283 4.02907168,18.0002193 8.99945171,18.0002193 L8.99945171,18.0002193 C13.970709,18.0002193 18,13.9709283 18,9.00054829 L18,9.00054829 C18,4.02951031 13.970709,0 8.99945171,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Vscan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Country_selection_3" transform="translate(-55.000000, -299.000000)">
+            <g id="Group-5" transform="translate(55.000000, 299.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#FEFEFE" mask="url(#mask-2)" points="-4.50323493 6.07727267 22.4975327 6.07727267 22.4975327 0.0021931695 -4.50323493 0.0021931695"></polygon>
+                <polygon id="Fill-3" fill="#DC2B1C" mask="url(#mask-2)" points="-4.50323493 18.0032898 22.4975327 18.0032898 22.4975327 11.9282103 -4.50323493 11.9282103"></polygon>
+                <polygon id="Fill-4" fill="#37B08C" mask="url(#mask-2)" points="-4.50148039 11.9282103 22.4992872 11.9282103 22.4992872 6.07793062 -4.50148039 6.07793062"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

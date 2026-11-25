@@ -148,7 +148,8 @@ async function loadEager(doc) {
 
 /**
  * Handles links that open third-party dialogs (configured in /config.json):
- * #marketoModal opens the Marketo form, #cookie-preferences the consent preferences.
+ * #marketoModal opens the Marketo form, #countryModal and #buyModal the Buy now
+ * country picker / pricing, #cookie-preferences the consent preferences.
  * @param {Element} doc The container element
  */
 function handleIntegrationLinks(doc) {
@@ -159,6 +160,9 @@ function handleIntegrationLinks(doc) {
     if (hash === '#marketoModal') {
       e.preventDefault();
       import('./marketo.js').then(({ default: openMarketoForm }) => openMarketoForm(link));
+    } else if (hash === '#countryModal' || hash === '#buyModal') {
+      e.preventDefault();
+      import('./buy-modal.js').then(({ default: openBuyModal }) => openBuyModal());
     } else if (hash === '#cookie-preferences') {
       e.preventDefault();
       import('./integrations.js').then(({ showConsentPreferences }) => showConsentPreferences());

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <path d="M9.00021931,0 C4.0292419,0 -2.92185312e-16,4.02968053 -2.92185312e-16,9 L-2.92185312e-16,9 C-2.92185312e-16,13.9709774 4.0292419,18.0004386 9.00021931,18.0004386 L9.00021931,18.0004386 C13.9705388,18.0004386 18,13.9709774 18,9 L18,9 C18,4.02968053 13.9705388,0 9.00021931,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Vscan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Country_selection_3" transform="translate(-655.000000, -255.000000)">
+            <g id="Group-12" transform="translate(655.000000, 151.000000)">
+                <g id="Group-8" transform="translate(0.000000, 16.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 88.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <polygon id="Fill-1" fill="#2E609F" mask="url(#mask-2)" points="-0.52810878 7.08889539 7.12266979 7.08889539 7.12266979 0.00109657139 -0.52810878 0.00109657139"></polygon>
+                        <polygon id="Fill-3" fill="#2E609F" mask="url(#mask-2)" points="10.9475108 7.0891147 26.4747423 7.0891147 26.4747423 0.00131588566 10.9475108 0.00131588566"></polygon>
+                        <polygon id="Fill-4" fill="#2E609F" mask="url(#mask-2)" points="10.9475108 18.0017545 26.4747423 18.0017545 26.4747423 10.9146136 10.9475108 10.9146136"></polygon>
+                        <polygon id="Fill-5" fill="#2E609F" mask="url(#mask-2)" points="-0.52810878 18.0017545 7.12266979 18.0017545 7.12266979 10.9146136 -0.52810878 10.9146136"></polygon>
+                        <polygon id="Fill-6" fill="#FCC800" mask="url(#mask-2)" points="26.4731413 7.08904891 10.947445 7.08904891 10.947445 0.00125009138 7.12282331 0.00125009138 7.12282331 7.08904891 -0.52795526 7.08904891 -0.52795526 10.9145478 7.12282331 10.9145478 7.12282331 18.001908 10.947445 18.001908 10.947445 10.9145478 26.4731413 10.9145478"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
