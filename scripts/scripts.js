@@ -114,7 +114,41 @@ export function decorateButtons(main) {
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
+/**
+ * Re-joins footnote markers the content import split into their own paragraph
+ * (`<p>…anywhere</p><p><sup>2</sup></p><p>in healthcare…</p>`).
+ * Followed by lowercase text or punctuation, the marker sits mid-sentence: the three
+ * paragraphs become one. Followed by a capital, it labels a footnote: it moves to the
+ * start of that footnote. With nothing after it, it ends the previous paragraph.
+ * @param {Element} main The container element
+ */
+export function mergeFootnoteMarkers(main) {
+  main.querySelectorAll('p').forEach((p) => {
+    const sup = p.firstElementChild;
+    if (!p.isConnected || p.children.length !== 1 || sup.tagName !== 'SUP'
+      || p.textContent.trim() !== sup.textContent.trim()) return;
+    const sibling = (el) => (el?.tagName === 'P' ? el : null);
+    const prev = sibling(p.previousElementSibling);
+    const next = sibling(p.nextElementSibling);
+    const nextText = next ? next.textContent.trimStart() : '';
+    const continues = /^[\p{Ll}\p{P}]/u.test(nextText);
+    if (prev && (continues || !next)) {
+      prev.append(sup);
+      if (continues) {
+        if (/^\p{Ll}/u.test(nextText)) prev.append(' ');
+        prev.append(...next.childNodes);
+        next.remove();
+      }
+      p.remove();
+    } else if (next) {
+      next.prepend(sup, ' ');
+      p.remove();
+    }
+  });
+}
+
 export function decorateMain(main) {
+  mergeFootnoteMarkers(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);

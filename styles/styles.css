@@ -309,6 +309,16 @@ main > .section > .hero-banner-wrapper {
   padding: 0;
 }
 
+/* a product card (hero-banner-card) sits in the content column like any block */
+main > .section > .hero-banner-wrapper:has(> .hero-banner-card) {
+  max-width: calc(var(--content-max-width) + 2 * var(--content-gutter));
+  padding: 0 var(--content-gutter);
+}
+
+main > .section.hero-banner-container:has(> .hero-banner-wrapper:last-child > .hero-banner-card) {
+  padding-bottom: var(--section-padding);
+}
+
 main > .section > div + div {
   margin-top: 48px;
 }
@@ -343,6 +353,10 @@ main .section.brand-purple :is(h1, h2, h3, h4, h5, h6, p, li) {
   color: #fff;
 }
 
+main .section.brand-purple .default-content-wrapper > h2 {
+  margin-bottom: 32px;
+}
+
 main .section.brand-purple a:any-link:not(.button) {
   color: #fff;
   text-decoration: underline;
@@ -362,6 +376,78 @@ main .section.brand-purple a.button:focus-visible {
   background-color: transparent;
   color: #fff;
 }
+
+/* stylelint-disable no-descending-specificity -- the empty-section, intro, gallery and
+   footnote rules below target sections and paragraphs the rules above never style */
+
+/* sections the content source leaves empty add no blank space */
+main > .section:not(:has(> *)) {
+  display: none;
+}
+
+/* section intro (source .topcol): lead paragraph under the heading (source .p) */
+main .default-content-wrapper > h2 + p:not(.button-wrapper) {
+  margin-bottom: 24px;
+  font-size: var(--body-font-size-l);
+  line-height: 28px;
+}
+
+/* icon-feature intro (source .twocol text column): half width */
+main .cards-links-container:has(.cards-links:not(.alt) .cards-links-card-image img[src*=".svg"]) .default-content-wrapper > h2 ~ p {
+  max-width: 558px;
+}
+
+/* image gallery intro (source #image-gallery .topcol.centered) */
+main .section.brand-gradient .default-content-wrapper p:not(.button-wrapper) > a:only-child:any-link::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  background-color: currentcolor;
+  vertical-align: -2px;
+  mask: url('../icons/caret-right.svg') center / contain no-repeat;
+}
+
+/* footnotes (source .footnote): a section that opens with a footnote marker, under a rule */
+main > .section:has(> .default-content-wrapper:only-child > p:first-child > sup:first-child) {
+  padding-top: 0;
+}
+
+main > .section > .default-content-wrapper:only-child:has(> p:first-child > sup:first-child) > p {
+  max-width: var(--content-max-width);
+  margin: 0;
+  font-size: var(--body-font-size-s);
+  line-height: 24px;
+}
+
+main > .section > .default-content-wrapper:only-child:has(> p:first-child > sup:first-child)::before {
+  content: '';
+  display: block;
+  margin-bottom: 24px;
+  border-top: 1px solid #c7c8cf;
+}
+
+@media (width >= 900px) {
+  main .default-content-wrapper > h2 {
+    max-width: 787px;
+  }
+
+  main .default-content-wrapper > h2 + p:not(.button-wrapper) {
+    line-height: 32px;
+  }
+
+  main .section.brand-gradient .default-content-wrapper {
+    text-align: center;
+  }
+
+  main .section.brand-gradient .default-content-wrapper > * {
+    max-width: 735px;
+    margin-inline: auto;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */
 
 /* stylelint-disable no-descending-specificity -- the back-link bar, lead paragraph and
    approval code below target disjoint sections/paragraphs, so their order does not interact */

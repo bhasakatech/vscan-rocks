@@ -190,8 +190,163 @@ main .hero-banner .hero-banner-content a.button:any-link {
   }
 }
 
-/* stylelint-disable no-descending-specificity -- article-header media paragraphs never
-   co-occur with the CTA/price paragraphs of the landing looks above */
+/* stylelint-disable no-descending-specificity -- the eyebrow (a paragraph before the heading)
+   and the product card (an h3 hero) never match the lead, CTA or price paragraphs above */
+
+/* eyebrow (source .pretitle) above the heading */
+.hero-banner .hero-banner-content > div > p:has(+ :is(h1, h2)) {
+  margin: 0 0 24px;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3616px;
+}
+
+/* landing hero on mobile (source .home.mobiletextbelow): the device shot runs edge to edge
+   above the text */
+@media (width < 900px) {
+  .hero-banner:not(.badge-column, .hero-banner-card) .hero-banner-media {
+    height: 282px;
+    margin: -38px -20px 24px;
+    overflow: hidden;
+  }
+
+  .hero-banner:not(.badge-column, .hero-banner-card) .hero-banner-media :is(div, p, picture, img) {
+    height: 100%;
+  }
+
+  .hero-banner:not(.badge-column, .hero-banner-card) .hero-banner-media img {
+    object-fit: cover;
+    object-position: 80% 50%;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-banner .hero-banner-content > div > p:has(+ :is(h1, h2)) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* product card (source #probes .solutionsRight): a white card, the product shot at its top
+   and the text over the shot's faded lower part; the right half of the grid on desktop */
+.hero-banner.hero-banner-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.hero-banner.hero-banner-card > .hero-banner-media,
+.hero-banner.hero-banner-card > .hero-banner-content {
+  grid-area: 1 / 1;
+}
+
+.hero-banner.hero-banner-card .hero-banner-media {
+  position: relative;
+  inset: auto;
+  z-index: 0;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.hero-banner.hero-banner-card .hero-banner-media :is(div, p, picture) {
+  height: auto;
+}
+
+.hero-banner.hero-banner-card .hero-banner-media img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-banner.hero-banner-card .hero-banner-content {
+  max-width: none;
+  margin: 0;
+  padding: 324px 24px 24px;
+}
+
+.hero-banner.hero-banner-card .hero-banner-content > div {
+  max-width: none;
+}
+
+.hero-banner.hero-banner-card .hero-banner-content h3 {
+  margin: 0 0 16px;
+  color: var(--heading-color);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.25px;
+}
+
+/* specs: a feature line (source .teaser) then its detail (source .small), then the warranty */
+.hero-banner.hero-banner-card .hero-banner-content p:not(.button-wrapper) {
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-banner.hero-banner-card .hero-banner-content p:not(.button-wrapper, :has(strong)):nth-of-type(odd) {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (width >= 900px) {
+  .hero-banner.hero-banner-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+
+  .hero-banner.hero-banner-card > .hero-banner-media,
+  .hero-banner.hero-banner-card > .hero-banner-content {
+    grid-area: 1 / 2;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-media {
+    position: relative;
+    inset: auto;
+    border-radius: 16px;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-media :is(div, p, picture) {
+    height: auto;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-media img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-content {
+    padding: 468px 56px 48px;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-content h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-content p:not(.button-wrapper) {
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero-banner.hero-banner-card .hero-banner-content p:not(.button-wrapper, :has(strong)):nth-of-type(odd) {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+/* (article-header media paragraphs never co-occur with the CTA/price paragraphs of the
+   landing looks above) */
 
 /* blog article header (source #detailhero): photo behind a 30% black overlay, white date
    and h1 centered in a 560px band */

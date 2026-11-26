@@ -27,11 +27,18 @@ export default function decorate(block) {
 
   if (!mediaRow) block.classList.add('hero-banner-no-image');
 
+  // product card (source #probes .solutionsRight): a sub-heading (h3) instead of the page or
+  // section heading, under the section's own intro
+  if (textRow && !textRow.querySelector('h1, h2') && textRow.querySelector('h3')) {
+    block.classList.add('hero-banner-card');
+  }
+
   block.querySelectorAll('picture > img').forEach((img) => {
     const url = new URL(img.src, window.location.href);
     if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) return;
     const isMedia = mediaRow && mediaRow.contains(img);
-    const pic = createOptimizedPicture(img.src, img.alt, isMedia, [
+    const eager = isMedia && !block.classList.contains('hero-banner-card');
+    const pic = createOptimizedPicture(img.src, img.alt, eager, [
       { media: '(min-width: 900px)', width: '2000' },
       { width: '900' },
     ]);

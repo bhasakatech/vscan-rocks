@@ -249,6 +249,32 @@
   }
 }
 
+/* icon features (source .items.grid.fourcol.imageTextContainer): an svg icon over a short
+   label, no links; two up on mobile, four up on desktop */
+.cards-links:not(.alt) > .cards-links-list:has(.cards-links-card-image img[src*=".svg"]):not(:has(a)) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+
+.cards-links:not(.alt) > .cards-links-list:has(.cards-links-card-image img[src*=".svg"]):not(:has(a)) .cards-links-card-body > p {
+  max-width: 160px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (width >= 900px) {
+  .cards-links:not(.alt) > .cards-links-list:has(.cards-links-card-image img[src*=".svg"]):not(:has(a)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 56px 80px;
+  }
+
+  .cards-links:not(.alt) > .cards-links-list:has(.cards-links-card-image img[src*=".svg"]):not(:has(a)) .cards-links-card-body > p {
+    margin-bottom: 56px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
 /* stylelint-disable no-descending-specificity -- plain text pair: no link anywhere, so it never
    matches the link-row, chips or headed looks */
 
